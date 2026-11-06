@@ -1,0 +1,2232 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="vi"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>VietNom — Hương vị bản địa &amp; Quà tặng di sản</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Momo+Trust+Display&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Theme Configuration Verbatim -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "inverse-on-surface": "#f8f5f0",
+            "on-tertiary": "#ffffff",
+            "on-surface-variant": "#625950",
+            "on-background": "#352f29",
+            "on-secondary-fixed-variant": "#75452d",
+            "accent-moss": "#68745c",
+            "background": "#faf8f4",
+            "status-success": "#2D6A4F",
+            "inverse-primary": "#e4b18e",
+            "inverse-surface": "#352f29",
+            "error-container": "#ffdad6",
+            "surface-dim": "#e4dfd8",
+            "surface-container": "#f4f0e9",
+            "status-error": "#B91C1C",
+            "border-warm": "#e8ded3",
+            "status-warning": "#D97706",
+            "on-tertiary-fixed-variant": "#625039",
+            "on-secondary": "#ffffff",
+            "tertiary": "#705b3d",
+            "primary-fixed-dim": "#d9c6b7",
+            "text-muted": "#756b61",
+            "surface-card": "#FFFFFF",
+            "tertiary-fixed-dim": "#d8b978",
+            "tertiary-container": "#655135",
+            "surface-cream-alt": "#f3eee7",
+            "on-primary-fixed": "#211a15",
+            "on-primary": "#ffffff",
+            "primary": "#493a30",
+            "primary-fixed": "#e9ddd3",
+            "surface-container-highest": "#eae4dc",
+            "surface-container-low": "#f8f5f0",
+            "on-tertiary-container": "#655033",
+            "surface": "#fcfaf7",
+            "secondary-fixed-dim": "#d79a73",
+            "tertiary-fixed": "#eee1c5",
+            "outline-variant": "#d6ccc1",
+            "surface-cream": "#faf8f4",
+            "surface-bright": "#fcfaf7",
+            "on-primary-container": "#e9d8ca",
+            "on-secondary-container": "#78472f",
+            "secondary": "#b96e45",
+            "surface-container-high": "#f0ebe4",
+            "on-error": "#ffffff",
+            "surface-container-lowest": "#ffffff",
+            "surface-tint": "#766052",
+            "secondary-container": "#ead3c3",
+            "error": "#ba1a1a",
+            "surface-variant": "#eae4dc",
+            "on-secondary-fixed": "#40271b",
+            "on-error-container": "#93000a",
+            "outline": "#82766a",
+            "on-primary-fixed-variant": "#554438",
+            "primary-container": "#70594a",
+            "on-tertiary-fixed": "#332719",
+            "secondary-fixed": "#f2dfd2",
+            "on-surface": "#352f29"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "gutter-mobile": "1rem",
+            "space-md": "1rem",
+            "space-sm": "0.5rem",
+            "space-xs": "0.25rem",
+            "margin-mobile": "1.25rem",
+            "margin": "3rem",
+            "gutter": "1.5rem",
+            "space-lg": "1.5rem",
+            "space-xl": "2.5rem"
+          },
+          "fontFamily": {
+            "display-hero": ["Momo Trust Display", "sans-serif"],
+            "label-sm": ["Be Vietnam Pro", "sans-serif"],
+            "headline-lg-mobile": ["Momo Trust Display", "sans-serif"],
+            "body-lg": ["Be Vietnam Pro", "sans-serif"],
+            "caption": ["Be Vietnam Pro", "sans-serif"],
+            "headline-lg": ["Momo Trust Display", "sans-serif"],
+            "label-md": ["Be Vietnam Pro", "sans-serif"],
+            "title-editorial": ["Momo Trust Display", "sans-serif"],
+            "headline-md": ["Momo Trust Display", "sans-serif"],
+            "body-sm": ["Be Vietnam Pro", "sans-serif"],
+            "headline-sm": ["Momo Trust Display", "sans-serif"],
+            "body-md": ["Be Vietnam Pro", "sans-serif"],
+            "display-hero-mobile": ["Momo Trust Display", "sans-serif"]
+          },
+          "fontSize": {
+            "display-hero": ["60px", { "lineHeight": "68px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "label-sm": ["13px", { "lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "600" }],
+            "headline-lg-mobile": ["31px", { "lineHeight": "40px", "fontWeight": "600" }],
+            "body-lg": ["20px", { "lineHeight": "31px", "fontWeight": "400" }],
+            "caption": ["13px", { "lineHeight": "18px", "fontWeight": "400" }],
+            "headline-lg": ["44px", { "lineHeight": "52px", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+            "label-md": ["16px", { "lineHeight": "22px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+            "title-editorial": ["20px", { "lineHeight": "29px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "headline-md": ["31px", { "lineHeight": "40px", "fontWeight": "600" }],
+            "body-sm": ["16px", { "lineHeight": "22px", "fontWeight": "400" }],
+            "headline-sm": ["24px", { "lineHeight": "33px", "fontWeight": "600" }],
+            "body-md": ["18px", { "lineHeight": "27px", "fontWeight": "400" }],
+            "display-hero-mobile": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "700" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    [hidden] {
+      display: none !important;
+    }
+    #local-box-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    body, body *:not(.material-symbols-outlined) {
+      font-family: "Be Vietnam Pro", sans-serif !important;
+    }
+    .font-display-hero,
+    .font-headline-lg-mobile,
+    .font-headline-lg,
+    .font-title-editorial,
+    .font-headline-md,
+    .font-headline-sm,
+    .font-display-hero-mobile {
+      font-family: "Momo Trust Display", sans-serif !important;
+    }
+    body {
+      background-color: #faf8f4;
+      color: #352f29;
+    }
+    header {
+      background-color: rgba(252, 250, 247, 0.94);
+      border-color: #e8ded3;
+      backdrop-filter: blur(14px);
+    }
+    button {
+      transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+    }
+    button:focus-visible, a:focus-visible {
+      outline: 3px solid #c98b62;
+      outline-offset: 3px;
+    }
+    .bg-surface-card {
+      border-color: #e8ded3;
+      box-shadow: 0 8px 24px rgba(112, 62, 31, 0.06);
+    }
+    .bg-surface-card:hover {
+      box-shadow: 0 14px 34px rgba(112, 62, 31, 0.12);
+    }
+    .spa-view#view-home > .relative.overflow-hidden.mb-8 > .relative {
+      min-height: 400px !important;
+    }
+    .spa-view#view-home > .relative.overflow-hidden.mb-8 > .relative > .max-w-4xl {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+    .hero-start-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 20px;
+      padding: 11px 22px;
+      border: 1px solid #9c502d;
+      border-radius: 9999px;
+      background: #9c502d;
+      color: #fff;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 6px 18px rgba(69, 51, 38, .16);
+      transition: background-color 180ms ease, transform 180ms ease;
+    }
+    .hero-start-button:hover {
+      transform: translateY(-2px);
+      background: #78452f;
+    }
+    #faq-section h2 {
+      font-size: 32px;
+      line-height: 1.3;
+    }
+    #faq-section button {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    #faq-section [id^="faq-content-"] {
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    .bg-\[\#1F4D3A\], .bg-\[\#023625\] {
+      background-color: #70594a !important;
+    }
+    .hover\:bg-\[\#023625\]:hover {
+      background-color: #b96e45 !important;
+    }
+    .text-\[\#1F4D3A\], .border-\[\#1F4D3A\] {
+      color: #554438 !important;
+      border-color: #c9b8a8 !important;
+    }
+    ::selection {
+      background: #ead3c3;
+      color: #352f29;
+    }
+    .material-symbols-outlined {
+      font-family: "Material Symbols Outlined" !important;
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .custom-scroll::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background-color: #E7DCB9;
+      border-radius: 9999px;
+    }
+    .viet-pattern {
+      background-image: radial-gradient(#b96e45 0.75px, transparent 0.75px), radial-gradient(#b7a99a 0.75px, #faf8f4 0.75px);
+      background-size: 30px 30px;
+      background-position: 0 0, 15px 15px;
+      opacity: 0.12;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+      }
+    }
+    @media (max-width: 640px) {
+      #local-box-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 640px) {
+      .spa-view#view-home > .relative.overflow-hidden.mb-8 > .relative {
+        min-height: 350px !important;
+      }
+      .spa-view#view-home > .relative.overflow-hidden.mb-8 > .relative > .max-w-4xl {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body class="bg-surface-cream text-on-background antialiased selection:bg-secondary selection:text-on-secondary min-h-screen flex flex-col font-body-md text-body-md">
+<!-- TOP BANNER NOTIFICATION -->
+
+<!-- TOP NAVIGATION BAR (Shared Component Execution) -->
+<header class="bg-surface sticky z-40 shadow-sm border-b border-border-warm transition-all duration-200 top-0">
+<div class="w-full px-4 md:px-8 max-w-7xl mx-auto flex items-center justify-between h-20">
+<!-- Brand Logo -->
+<div class="flex items-center gap-3">
+<a class="group flex items-center gap-2" href="javascript:void(0)" onclick="navigateTo('home')">
+  <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1qlzeT9yIAmIgffBEUT1qDG-jr-8am3dDfa6Pc_fLvbwBKAE67sl5YlVBdFI_z6Wkg8_ZfeNo32J880q4D7Gqlf6zLnWPsNwyNQCMb1f56GDUw-JYxXEBo3bTRdXiDW-KhTCZ4MafBRTjQMB9YJogjtIGk9fliGg0ux_A0hgkkbUnqlT7j_Dda5OJ4WtA4wKmjZZKtt9HC-dkNrKvSTVQmEuMjGpj_ebrnKrRC_N5D4Uckolrm-VPIRhXnm9D340G3EftgzHzrZa64w" alt="VietNom Logo" class="w-auto object-contain mix-blend-multiply transition-transform duration-200 group-hover:scale-105 h-16">
+</a>
+</div>
+<!-- Desktop Nav Links -->
+<nav class="hidden lg:flex items-center gap-7">
+<button class="text-on-surface-variant hover:text-secondary hover:bg-surface-cream-alt transition-colors duration-150 px-2 py-1 rounded text-label-md font-label-md flex items-center gap-1" id="nav-cua-hang" onclick="navigateTo('shop')">
+          Cửa hàng
+</button>
+<button class="text-on-surface-variant hover:text-secondary hover:bg-surface-cream-alt transition-colors duration-150 px-2 py-1 rounded text-label-md font-label-md" id="nav-qua-tang" onclick="navigateTo('gifts')">
+          Quà tặng
+        </button>
+
+<button class="text-on-surface-variant hover:text-secondary hover:bg-surface-cream-alt transition-colors duration-150 px-2 py-1 rounded text-label-md font-label-md flex items-center gap-1" id="nav-guide-book" onclick="navigateTo('guidebook')">
+<span class="material-symbols-outlined text-[16px] text-primary" data-icon="menu_book">menu_book</span>
+          Guidebook
+        </button>
+<button class="text-on-surface-variant hover:text-secondary hover:bg-surface-cream-alt transition-colors duration-150 px-2 py-1 rounded text-label-md font-label-md flex items-center gap-1" id="nav-cau-chuyen" onclick="navigateTo('passport')">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="stars">stars</span>
+          Hộ chiếu ẩm thực</button>
+</nav>
+<!-- Trailing Action Cluster -->
+<div class="flex items-center gap-3">
+<!-- Interactive Taste Quiz CTA -->
+<button class="hidden sm:flex items-center gap-2 bg-secondary hover:bg-on-secondary-container text-surface-card px-4 py-2.5 rounded-xl text-label-md font-label-md transition-all duration-200 active:scale-95 shadow-sm" onclick="openQuizModal()">
+<span class="material-symbols-outlined text-[18px]" data-icon="temp_preferences_custom">temp_preferences_custom</span>
+<span class="">Khảo sát</span>
+</button>
+<!-- Cart Button with Counter Badge -->
+<button aria-label="Giỏ hàng" class="relative p-2.5 rounded-xl hover:bg-surface-cream-alt text-primary transition-all duration-150 active:scale-95" onclick="toggleCartDrawer(true)">
+<span class="material-symbols-outlined text-2xl" data-icon="shopping_bag">shopping_bag</span>
+<span class="absolute top-1.5 right-1.5 bg-secondary text-surface-card text-[11px] font-bold w-5 h-5 rounded-full flex items-center justify-center border-2 border-surface" id="cart-badge">3</span>
+</button>
+<!-- User Profile Action -->
+<button class="p-2.5 rounded-xl hover:bg-surface-cream-alt text-primary transition-all duration-150 active:scale-95" onclick="showToast('Xin chào bạn! Bạn đang đăng nhập là Khách Khám Phá')" title="Tài khoản ẩm thực VietNom">
+<span class="material-symbols-outlined text-2xl" data-icon="person">person</span>
+</button>
+<!-- Mobile Menu Toggle -->
+<button class="lg:hidden p-2 rounded-lg text-primary hover:bg-surface-cream-alt" onclick="toggleMobileNav()">
+<span class="material-symbols-outlined text-2xl" data-icon="menu">menu</span>
+</button>
+</div>
+</div>
+<!-- Mobile Nav Slide Dropdown -->
+<div class="hidden lg:hidden border-t border-border-warm bg-surface px-4 py-4 space-y-2" id="mobile-nav-panel">
+<button class="w-full text-left py-2 px-3 rounded text-label-md font-label-md text-primary hover:bg-surface-cream-alt flex items-center justify-between" onclick="navigateTo('home'); toggleMobileNav()">
+<span class="">Trang chủ</span>
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+<button class="w-full text-left py-2 px-3 rounded text-label-md font-label-md text-primary hover:bg-surface-cream-alt flex items-center justify-between" onclick="navigateTo('shop'); toggleMobileNav()">
+<span class="">Cửa hàng &amp; Bộ sưu tập hộp</span>
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+<button class="w-full text-left py-2 px-3 rounded text-label-md font-label-md text-primary hover:bg-surface-cream-alt flex items-center justify-between" onclick="navigateTo('market'); toggleMobileNav()">
+<span class="">Chợ đặc sản lẻ</span>
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+<button class="w-full text-left py-2 px-3 rounded text-label-md font-label-md text-primary hover:bg-surface-cream-alt flex items-center justify-between" onclick="navigateTo('gifts'); toggleMobileNav()">
+<span class="">Dịch vụ quà tặng tùy biến</span>
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+<button class="w-full text-left py-2 px-3 rounded text-label-md font-label-md text-primary hover:bg-surface-cream-alt flex items-center justify-between" onclick="navigateTo('guidebook'); toggleMobileNav()">
+<span class="">Guide book lật trang</span>
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+<button class="w-full text-left py-2 px-3 rounded text-label-md font-label-md text-primary hover:bg-surface-cream-alt flex items-center justify-between" onclick="navigateTo('passport'); toggleMobileNav()">
+<span class="">Hộ chiếu chữ S ẩm thực</span>
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+<div class="pt-2">
+<button class="w-full py-3 bg-secondary text-surface-card rounded-xl font-label-md flex items-center justify-center gap-2" onclick="openQuizModal(); toggleMobileNav()">
+<span class="material-symbols-outlined" data-icon="temp_preferences_custom">temp_preferences_custom</span>
+          Khảo sát khẩu vị của tôi
+        </button>
+</div>
+</div>
+</header>
+<!-- QUICK ACCESS SECONDARY SUB-NAVIGATION BAR (Sticky Context Tab Bar) -->
+<div class="bg-surface-cream-alt/80 backdrop-blur-sm border-b border-border-warm sticky top-[111px] z-30 hidden sm:block">
+
+</div>
+<!-- MAIN VIEW CONTAINER (SPA SECTIONS) -->
+<main class="flex-grow">
+<!-- ==================== VIEW 1: TRANG CHỦ (HOME) ==================== -->
+<section class="spa-view block" id="view-home">
+<!-- HERO SECTION -->
+<div class="relative overflow-hidden border-b border-border-warm mb-8"><div class="relative w-full min-h-[520px] flex items-center justify-center overflow-hidden"><img src="image/banner.png" alt="VietNom Hero Banner Background" class="absolute inset-0 w-full h-full object-cover object-center z-0"><div class="relative max-w-4xl mx-auto px-4 py-16 text-center z-10"><div class="flex justify-center mb-5"><div class="relative inline-block"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMK_K3XZfqFbN4kdk_i66vYaIqSJxVq2ByTybZLRSV9S1aSzbRz9FC0nVFSVqYELYZhj2ucDcEETTjYaHxcBAhaMGawAOy2EdL8w67boJzRTyqs7EcqzvxOj3TFvW58ozP0tf1Ck0wAu0p5AvPMvsgtv1ZUglD4BERX9RsPGCkq4Mu2aDslNm52ZdPDWY4ePectSDxO_amumfyWgmKBwe9sIDv8m_6I7OYe8fhx_kJ9fS7INTyag2h" alt="VietNom Logo" class="w-[280px] md:w-[320px] max-w-full h-auto object-contain mx-auto transition-transform hover:scale-105 duration-300 drop-shadow-sm"></div></div><div class="space-y-3"><div class="flex items-center justify-center gap-3 my-2"><div class="w-16 h-px bg-[#1F4D3A]/40"></div><h2 class="font-display-hero text-2xl md:text-3xl lg:text-4xl text-[#1F4D3A] font-bold tracking-tight">Gói từng món ăn Việt vào mỗi chiếc hộp</h2><div class="w-16 h-px bg-[#1F4D3A]/40"></div></div><p class="font-title-editorial italic text-base md:text-lg text-[#1F4D3A]/90">Mỗi chiếc hộp là một vùng đất — Mỗi sản phẩm là một câu chuyện.</p></div></div></div><div class="fixed bottom-6 right-6 z-40"><button onclick="showToast('Trợ lý VietNom luôn sẵn sàng đồng hành cùng bạn!')" class="bg-[#1F4D3A] hover:bg-secondary text-white font-label-md text-sm py-3 px-5 rounded-full shadow-xl flex items-center gap-2 border border-border-warm transition-transform hover:scale-105 active:scale-95"><span class="material-symbols-outlined text-lg" data-icon="chat">chat</span><span class="">Hỏi VietNom</span></button></div></div>
+<!-- 5 THẺ VÙNG MIỀN ĐẶC TRƯNG -->
+<div class="max-w-7xl mx-auto px-4 md:px-8 py-16">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+<div>
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider block mb-1">Local Box VietNom</span>
+<h2 class="text-headline-lg font-headline-lg text-primary">Bạn đã sẵn sàng chuyến đi của mình chưa?</h2>
+</div>
+<p class="text-text-muted text-body-sm max-w-md mt-2 md:mt-0">
+            Chọn một chiếc hộp và bắt đầu hành trình khám phá hương vị đặc trưng từ khắp các vùng miền Việt Nam.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="local-box-grid"></div>
+<div class="flex justify-center mt-8">
+  <button class="px-4 py-2 rounded-lg border border-primary text-primary hover:bg-primary hover:text-surface-card text-caption font-label-md transition-all duration-200" id="local-box-toggle" type="button" aria-expanded="false" aria-controls="local-box-grid" onclick="toggleLocalBoxCards()">
+    Xem thêm sản phẩm
+  </button>
+</div>
+</div>
+</div>
+<!-- 3 BƯỚC: BÊN TRONG MỘT LOCAL BOX -->
+<div class="bg-surface py-16 border-y border-border-warm">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider block mb-1">Trải nghiệm BẬT MỞ TỪNG TẦNG HƯƠNG VỊ</span>
+<h2 class="text-headline-lg font-headline-lg text-primary">Bên Trong VietNom Có Gì?</h2>
+<p class="text-text-muted mt-3">VietNom gửi gắm một hành trình văn hóa được thiết kế tỉ mỉ tới từng chi tiết, chạm đến mọi giác quan của bạn.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-surface-cream rounded-2xl p-8 border border-border-warm relative">
+<div class="w-12 h-12 rounded-full bg-secondary text-surface-card flex items-center justify-center font-bold text-lg mb-6 shadow-sm">1</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">Sản phẩm tuyển chọn thủ công</h3>
+<p class="text-body-sm text-text-muted leading-relaxed">
+                4 đến 7 món đặc sản chất lượng cao từ các lò nghề gia truyền. Không chất bảo quản công nghiệp, đóng gói bằng giấy kraft dập nổi hoa văn truyền thống.
+              </p>
+<div class="mt-6 flex items-center gap-2 text-label-sm font-label-sm text-secondary">
+<span class="material-symbols-outlined text-[18px]" data-icon="inventory_2">inventory_2</span>
+                Đạt chứng nhận OCOP 3-4 sao
+              </div>
+</div>
+<div class="bg-surface-cream rounded-2xl p-8 border border-border-warm relative">
+<div class="w-12 h-12 rounded-full bg-primary-container text-surface-card flex items-center justify-center font-bold text-lg mb-6 shadow-sm">2</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">Thẻ câu chuyện &amp; Mã QR âm thanh</h3>
+<p class="text-body-sm text-text-muted leading-relaxed">
+                Tấm thiệp in chất liệu giấy dó chạm khắc chân dung nghệ nhân, quét mã QR để nghe podcast ngắn 3 phút về sự tích món ăn và thanh âm đời sống bản địa.
+              </p>
+<div class="mt-6 flex items-center gap-2 text-label-sm font-label-sm text-primary">
+<span class="material-symbols-outlined text-[18px]" data-icon="graphic_eq">graphic_eq</span>
+                Âm thanh podcast độc quyền
+              </div>
+</div>
+<div class="bg-surface-cream rounded-2xl p-8 border border-border-warm relative">
+<div class="w-12 h-12 rounded-full bg-tertiary-container text-surface-card flex items-center justify-center font-bold text-lg mb-6 shadow-sm">3</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">Guide book điện tử &amp; Bản đồ mini</h3>
+<p class="text-body-sm text-text-muted leading-relaxed">
+                Quyển cẩm nang bỏ túi hướng dẫn nghệ thuật kết hợp thức uống (Pairing guide), mẹo bảo quản và mã tích điểm tem "Hộ chiếu ẩm thực chữ S".
+              </p>
+<div class="mt-6 flex items-center gap-2 text-label-sm font-label-sm text-tertiary-container">
+<span class="material-symbols-outlined text-[18px]" data-icon="auto_stories">auto_stories</span>
+                Cẩm nang kết hợp chuẩn gu
+              </div>
+</div>
+</div>
+</div>
+</div>
+<!-- MỘT HỘP CHO MỖI NHU CẦU: SO SÁNH 3 HẠNG HỘP -->
+<div class="bg-surface py-16 border-t border-border-warm">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider block mb-1">SẢN PHẨM ĐA DẠNG</span>
+<h2 class="text-headline-lg font-headline-lg text-primary">Một Chiếc Hộp Cho Mọi Nhu Cầu</h2>
+<p class="text-text-muted mt-3">Chọn cấp độ trải nghiệm thích hợp cho bạn tự thưởng thức hoặc gửi gắm tấm lòng cho người trân quý.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+<!-- Hạng Cơ Bản -->
+<div class="bg-surface-cream rounded-3xl p-7 border border-border-warm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex justify-between items-center mb-4">
+<span class="px-3 py-1 rounded-full text-caption font-bold bg-surface-card text-primary border border-border-warm">Cơ Bản</span>
+<span class="text-caption text-text-muted">Cá nhân</span>
+</div>
+<div class="w-full h-40 rounded-2xl overflow-hidden mb-3 border border-border-warm shadow-xs"><img src="image/hue_coban.jpg" alt="Hộp Khám Phá" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"></div><h3 class="font-headline-sm text-headline-sm text-primary">Hộp trải nghiệm</h3>
+<p class="text-caption text-text-muted mt-1">Phù hợp ăn vặt văn phòng &amp; trải nghiệm lần đầu.</p>
+<div class="my-6">
+<span class="text-3xl font-headline-lg font-bold text-primary">179.000</span>
+<span class="text-body-sm text-text-muted">đ / hộp</span>
+</div>
+<ul class="space-y-3 text-body-sm text-on-surface-variant border-t border-border-warm pt-4">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-status-success text-[18px]" data-icon="check_circle">check_circle</span>
+                    3 món đặc sản tiêu biểu
+                  </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-status-success text-[18px]" data-icon="check_circle">check_circle</span>
+                    Bao bì hộp giấy kraft thân thiện
+                  </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-status-success text-[18px]" data-icon="check_circle">check_circle</span>
+                    Thẻ postcard giới thiệu xuất xứ
+                  </li>
+<li class="flex items-center gap-2 text-text-muted/60">
+<span class="material-symbols-outlined text-[18px]" data-icon="remove">remove</span>
+                    Chưa bao gồm Guide book in màu
+                  </li>
+</ul>
+</div>
+<div class="w-full mt-8 space-y-3">
+  <button class="w-full py-3 rounded-xl bg-secondary hover:bg-on-secondary-container text-surface-card font-label-md font-semibold shadow-sm transition-all duration-200" onclick="openQuizModal()">Bắt đầu hành trình</button>
+  <button class="w-full py-3 rounded-xl border-2 border-primary text-primary hover:bg-primary hover:text-surface-card font-label-md transition-all duration-200" onclick="navigateTo('gifts')">Gửi quà tặng</button>
+</div>
+</div>
+<!-- Hạng Tiêu Chuẩn (Highlight) -->
+<div class="bg-surface-card rounded-3xl p-7 border-2 border-secondary flex flex-col justify-between shadow-xl relative -translate-y-2">
+<div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-secondary text-surface-card px-4 py-1 rounded-full text-caption font-bold uppercase tracking-wider">
+                Được Chọn Nhiều Nhất
+              </div>
+<div>
+<div class="flex justify-between items-center mb-4">
+<span class="px-3 py-1 rounded-full text-caption font-bold bg-secondary/10 text-secondary">Tiêu Chuẩn</span>
+<span class="text-caption text-secondary font-bold">Best Seller</span>
+</div>
+<div class="w-full h-40 rounded-2xl overflow-hidden mb-3 border border-border-warm shadow-xs"><img src="image/hue.jpg" alt="Hộp Chuẩn Standard" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"></div><h3 class="font-headline-sm text-headline-sm text-primary">Hộp tiêu chuẩn</h3>
+<p class="text-caption text-text-muted mt-1">Cân bằng hoàn hảo các tầng hương vị vùng miền.</p>
+<div class="my-6">
+<span class="text-3xl font-headline-lg font-bold text-secondary">299.000</span>
+<span class="text-body-sm text-text-muted">đ / hộp</span>
+</div>
+<ul class="space-y-3 text-body-sm text-on-surface-variant border-t border-border-warm pt-4">
+<li class="flex items-center gap-2 font-medium">
+<span class="material-symbols-outlined text-status-success text-[18px]" data-icon="check_circle">check_circle</span>
+                    5 món đặc sản tuyển chọn cỡ lớn
+                  </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-status-success text-[18px]" data-icon="check_circle">check_circle</span>
+                    Hộp quai xách mỹ thuật cứng cáp
+                  </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-status-success text-[18px]" data-icon="check_circle">check_circle</span>
+                    Guide book bỏ túi &amp; QR podcast độc quyền
+                  </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-status-success text-[18px]" data-icon="check_circle">check_circle</span>
+                    Tem dán đóng dấu Hộ chiếu chữ S (+50 điểm)
+                  </li>
+</ul>
+</div>
+<div class="w-full mt-8 space-y-3">
+  <button class="w-full py-3 rounded-xl bg-secondary hover:bg-on-secondary-container text-surface-card font-label-md font-semibold shadow-md transition-all duration-200" onclick="openQuizModal()">Bắt đầu hành trình</button>
+  <button class="w-full py-3 rounded-xl border-2 border-primary text-primary hover:bg-primary hover:text-surface-card font-label-md transition-all duration-200" onclick="navigateTo('gifts')">Gửi quà tặng</button>
+</div>
+</div>
+<!-- Hạng Nâng Cấp -->
+<div class="bg-surface-cream rounded-3xl p-7 border border-border-warm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="flex justify-between items-center mb-4">
+<span class="px-3 py-1 rounded-full text-caption font-bold bg-[#E3A82B]/20 text-tertiary">Nâng Cấp</span>
+<span class="text-caption text-text-muted">Doanh nghiệp / Bạn bè</span>
+</div>
+<div class="w-full h-40 rounded-2xl overflow-hidden mb-3 border border-border-warm shadow-xs"><img src="image/hue_nangcap.jpg" alt="Hộp Quà Tặng Di Sản" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"></div><h3 class="font-headline-sm text-headline-sm text-primary">Hộp quà tặng di sản</h3>
+<p class="text-caption text-text-muted mt-1">Đóng gói lụa/mây tre đan, viết thiệp thư pháp.</p>
+<div class="my-6">
+<span class="text-3xl font-headline-lg font-bold text-primary">549.000</span>
+<span class="text-body-sm text-text-muted">đ / hộp</span>
+</div>
+<ul class="space-y-3 text-body-sm text-on-surface-variant border-t border-border-warm pt-4">
+<li class="flex items-center gap-2 font-medium">
+<span class="material-symbols-outlined text-status-success text-[18px]" data-icon="check_circle">check_circle</span>
+                    7 món thượng hạng kèm bình gốm/hũ gốm
+                  </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-status-success text-[18px]" data-icon="check_circle">check_circle</span>
+                    Khăn lụa Furoshiki nhuộm củ nâu bọc ngoài
+                  </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-status-success text-[18px]" data-icon="check_circle">check_circle</span>
+                    Thiệp tay tùy chỉnh lời chúc theo tên
+                  </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-status-success text-[18px]" data-icon="check_circle">check_circle</span>
+                    Tùy chọn che giá hóa đơn giao tận tay
+                  </li>
+</ul>
+</div>
+<div class="w-full mt-8 space-y-3">
+  <button class="w-full py-3 rounded-xl bg-secondary hover:bg-on-secondary-container text-surface-card font-label-md font-semibold shadow-sm transition-all duration-200" onclick="openQuizModal()">Bắt đầu hành trình</button>
+  <button class="w-full py-3 rounded-xl border-2 border-primary text-primary hover:bg-primary hover:text-surface-card font-label-md transition-all duration-200" onclick="navigateTo('gifts')">Gửi quà tặng</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ĐÁNH GIÁ THỰC TẾ & CHỈ SỐ HÀI LÒNG -->
+<div class="max-w-7xl mx-auto px-4 md:px-8 py-16">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<div class="lg:col-span-4 bg-primary-container text-surface-card rounded-3xl p-8 shadow-md">
+
+<div class="text-5xl font-display-hero font-bold mb-2">98.4%</div>
+<p class="text-surface-dim font-body-sm mb-6">Khách hàng Gen Z và dân văn phòng hài lòng với trải nghiệm mua hàng và câu chuyện văn hóa đi kèm hộp.</p>
+<div class="space-y-4 border-t border-border-warm/20 pt-6">
+<div>
+<div class="flex justify-between text-caption mb-1">
+<span class="">Hương vị đúng bản xứ</span>
+<span class="font-bold text-on-tertiary-container">99%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-dim/20 rounded-full overflow-hidden">
+<div class="h-full bg-on-tertiary-container rounded-full" style="width: 99%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-caption mb-1">
+<span class="">Đóng gói chỉn chu, thẩm mỹ</span>
+<span class="font-bold text-on-tertiary-container">98%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-dim/20 rounded-full overflow-hidden">
+<div class="h-full bg-on-tertiary-container rounded-full" style="width: 98%"></div>
+</div>
+</div>
+<div>
+<div class="flex justify-between text-caption mb-1">
+<span class="">Sẵn lòng giới thiệu bạn bè</span>
+<span class="font-bold text-on-tertiary-container">97%</span>
+</div>
+<div class="w-full h-1.5 bg-surface-dim/20 rounded-full overflow-hidden">
+<div class="h-full bg-on-tertiary-container rounded-full" style="width: 97%"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Review cards -->
+<div class="lg:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-surface-card rounded-2xl p-6 border border-border-warm shadow-xs">
+<div class="flex items-center gap-1 text-[#E3A82B] mb-3">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+<p class="text-body-sm text-on-surface-variant italic mb-4 leading-relaxed">
+                "Mình mua hộp Hà Nội tặng sếp người Hàn. Sếp khen hết lời về cách thiết kế tinh tế của Guide book. Bánh cốm ăn tươi mềm, trà sen thì mở nắp ra là thơm ngát cả phòng làm việc!"
+              </p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-cream-alt flex items-center justify-center font-bold text-primary">MN</div>
+<div>
+<div class="font-label-md text-label-md text-primary font-bold">Minh Ngọc</div>
+<div class="text-caption text-text-muted">Nhân viên OCOP (26 tuổi, TP.HCM)</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-card rounded-2xl p-6 border border-border-warm shadow-xs">
+<div class="flex items-center gap-1 text-[#E3A82B] mb-3">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+<p class="text-body-sm text-on-surface-variant italic mb-4 leading-relaxed">
+                "Thích nhất tính năng khảo sát khẩu vị, gợi ý đúng gu thích ăn mặn đậm của mình. Hộp Cố Đô Huế có hũ mắm ruốc chưng tôm đỉnh chóp, chấm dưa leo hay ăn cơm đều tốn gạo."
+              </p>
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-cream-alt flex items-center justify-center font-bold text-secondary">TH</div>
+<div>
+<div class="font-label-md text-label-md text-primary font-bold">Trần Hoàng</div>
+<div class="text-caption text-text-muted">Nhà thiết kế (24 tuổi, Hà Nội)</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- FAQ ACCORDION -->
+<div class="bg-surface py-16 border-t border-border-warm" id="faq-section">
+<div class="max-w-3xl mx-auto px-4 md:px-8">
+<h2 class="text-headline-lg font-headline-lg text-primary text-center mb-8">Câu Hỏi Thường Gặp</h2>
+<div class="space-y-4">
+<div class="bg-surface-card border border-border-warm rounded-2xl overflow-hidden">
+<button class="w-full p-5 text-left font-headline-sm text-headline-sm text-primary flex items-center justify-between" onclick="toggleFaq(1)">
+<span class="">Hạn sử dụng của các món trong Local Box là bao lâu?</span>
+<span class="material-symbols-outlined transition-transform duration-200" data-icon="expand_more" id="faq-icon-1">expand_more</span>
+</button>
+<div class="px-5 pb-5 text-body-sm text-text-muted hidden border-t border-border-warm/40 pt-3" id="faq-content-1">
+                Các sản phẩm khô (trà, mè xửng, ô mai, hạt) có hạn dùng từ 3 đến 6 tháng. Bánh tươi như bánh cốm mộc có hạn dùng 10-14 ngày kể từ ngày đóng hộp. Ngày sản xuất luôn mới nhất trong vòng 48h trước khi giao.
+              </div>
+</div>
+<div class="bg-surface-card border border-border-warm rounded-2xl overflow-hidden">
+<button class="w-full p-5 text-left font-headline-sm text-headline-sm text-primary flex items-center justify-between" onclick="toggleFaq(2)">
+<span class="">Thời gian giao hàng mất bao lâu và phí ship tính như thế nào?</span>
+<span class="material-symbols-outlined transition-transform duration-200" data-icon="expand_more" id="faq-icon-2">expand_more</span>
+</button>
+<div class="px-5 pb-5 text-body-sm text-text-muted hidden border-t border-border-warm/40 pt-3" id="faq-content-2">
+                Nội thành Hà Nội &amp; TP.HCM giao hỏa tốc trong 24h hoặc tiêu chuẩn 1-2 ngày. Các tỉnh khác mất từ 3-5 ngày. Đặc biệt, khi bạn đặt từ 2 hộp Local Box bất kỳ, VietNom miễn phí 100% cước vận chuyển toàn quốc.
+              </div>
+</div>
+<div class="bg-surface-card border border-border-warm rounded-2xl overflow-hidden">
+<button class="w-full p-5 text-left font-headline-sm text-headline-sm text-primary flex items-center justify-between" onclick="toggleFaq(3)">
+<span class="">Tôi có thể tùy biến món ăn trong hộp theo khẩu vị ăn chay không?</span>
+<span class="material-symbols-outlined transition-transform duration-200" data-icon="expand_more" id="faq-icon-3">expand_more</span>
+</button>
+<div class="px-5 pb-5 text-body-sm text-text-muted hidden border-t border-border-warm/40 pt-3" id="faq-content-3">
+                Hoàn toàn được! Bạn có thể sử dụng bộ lọc "Ăn chay" trên trang Cửa hàng hoặc làm bài Khảo sát khẩu vị. Hệ thống sẽ tự động hoán đổi các món mặn (như mắm tép, mắm ruốc) sang đặc sản chay tương đương như tương bần, chao môn, muối mè hạt sen.
+              </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== VIEW 2: CỬA HÀNG (/cua-hang) & BỘ LỌC ĐA NĂNG ==================== -->
+<section class="spa-view hidden" id="view-shop">
+<div class="max-w-7xl mx-auto px-4 md:px-8 py-10">
+<div class="mb-8">
+
+<h2 class="text-headline-lg font-headline-lg text-primary">Bộ Sưu Tập Theo Địa Phương</h2>
+
+</div>
+<!-- FILTER BAR -->
+<div class="bg-surface-card p-6 rounded-2xl border border-border-warm mb-10 shadow-xs">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<!-- Region Filter -->
+<div>
+<label class="block text-label-sm font-label-sm text-primary mb-2">Vùng miền:</label>
+<select class="w-full rounded-xl border-border-warm bg-surface-cream text-body-sm py-2.5 px-3 focus:border-primary focus:ring-0" id="filter-region" onchange="applyFilters()">
+<option value="all">Tất cả vùng miền</option>
+<option value="ha-noi">Hà Nội (Bắc Bộ)</option>
+<option value="hue">Cố Đô Huế (Miền Trung)</option>
+<option value="tay-bac">Tây Bắc</option>
+</select>
+</div>
+<!-- Tier Filter -->
+<div>
+<label class="block text-label-sm font-label-sm text-primary mb-2">Hạng hộp / Ngân sách:</label>
+<select class="w-full rounded-xl border-border-warm bg-surface-cream text-body-sm py-2.5 px-3 focus:border-primary focus:ring-0" id="filter-tier" onchange="applyFilters()">
+<option value="all">Tất cả hạng giá</option>
+<option value="kham-pha">Cơ bản (179.000đ)</option>
+<option value="chuan">Tiêu chuẩn (299.000đ)</option>
+<option value="qua-tang">Nâng cấp (549.000đ)</option>
+</select>
+</div>
+<!-- Dietary Tag Filter -->
+<div>
+<label class="block text-label-sm font-label-sm text-primary mb-2">Chế độ ăn:</label>
+<select class="w-full rounded-xl border-border-warm bg-surface-cream text-body-sm py-2.5 px-3 focus:border-primary focus:ring-0" id="filter-diet" onchange="applyFilters()">
+<option value="all">Tất cả thói quen</option>
+<option value="chay">Thuần chay (Ăn chay)</option>
+<option value="khong-cay">Không ăn cay</option>
+<option value="khong-hat">Không hạt / Tránh dị ứng</option>
+</select>
+</div>
+<!-- Sort By -->
+<div>
+<label class="block text-label-sm font-label-sm text-primary mb-2">Sắp xếp:</label>
+<select class="w-full rounded-xl border-border-warm bg-surface-cream text-body-sm py-2.5 px-3 focus:border-primary focus:ring-0" id="filter-sort" onchange="applyFilters()">
+<option value="popular">Bán chạy nhất</option>
+<option value="price-asc">Giá: Thấp đến Cao</option>
+<option value="price-desc">Giá: Cao đến Thấp</option>
+</select>
+</div>
+</div>
+</div>
+<!-- PRODUCTS GRID -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="shop-items-container">
+<!-- Box 1 -->
+<div class="shop-card bg-surface-card rounded-2xl border border-border-warm overflow-hidden hover:shadow-xl transition-all duration-200" data-diet="chay" data-price="299000" data-region="ha-noi" data-tier="chuan">
+<div class="h-52 relative overflow-hidden border-b border-border-warm group"><img src="image/taynguyen.png" alt="Local Box Tây Nguyên" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4"><div class="w-full flex justify-between items-center"><span class="text-caption text-surface-card font-medium">5 Món đặc sản</span><span class="text-caption text-surface-card font-semibold">⭐ 4.9 (340 đánh giá)</span></div></div><div class="absolute top-4 left-4 right-4 flex justify-between items-start"><span class="px-3 py-1 rounded-full text-caption font-bold bg-[#1F4D3A] text-surface-card shadow-sm">Hà Nội</span><span class="px-2.5 py-0.5 rounded text-[11px] bg-status-success/90 backdrop-blur-xs text-surface-card font-bold shadow-sm">Ăn chay</span></div></div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Box Tây Nguyên</h3>
+<p class="text-caption text-text-muted mb-4">Gồm: Cafe hạt xay, Chuối hột rừng, Măng le, Macca Bazan, Nấm hồng.</p>
+<div class="flex flex-col items-stretch gap-4">
+<div>
+<span class="text-xl font-bold text-secondary font-headline-sm">179.000đ – 549.000đ</span>
+</div>
+<div class="flex flex-col gap-2 w-full">
+<button class="w-full px-3 py-2 rounded-xl border border-primary text-primary hover:bg-surface-cream text-caption font-semibold" onclick="openBoxDetail('ha-noi')">
+                    Xem chi tiết
+                  </button>
+<button class="w-full justify-center px-4 py-2 rounded-xl bg-secondary hover:bg-on-secondary-container text-surface-card text-caption font-bold flex items-center gap-1 shadow-sm" onclick="addToCart('Local Box Hà Nội Chuẩn', 299000, 'Hà Nội')">
+<span class="material-symbols-outlined text-[16px]" data-icon="add_shopping_cart">add_shopping_cart</span>
+                    Thêm giỏ hàng
+                  </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Box 2 -->
+<div class="shop-card bg-surface-card rounded-2xl border border-border-warm overflow-hidden hover:shadow-xl transition-all duration-200" data-diet="khong-hat" data-price="299000" data-region="hue" data-tier="chuan">
+<div class="h-52 relative overflow-hidden border-b border-border-warm group"><img src="image/hue.jpg" alt="Local Box Huế Chuẩn" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4"><div class="w-full flex justify-between items-center"><span class="text-caption text-surface-card font-medium">5 Món đặc sản</span><span class="text-caption text-surface-card font-semibold">⭐ 4.95 (210 đánh giá)</span></div></div><div class="absolute top-4 left-4 right-4 flex justify-between items-start"><span class="px-3 py-1 rounded-full text-caption font-bold bg-secondary text-surface-card shadow-sm">Huế Cố Đô</span><span class="px-2.5 py-0.5 rounded text-[11px] bg-secondary/90 backdrop-blur-xs text-surface-card font-bold shadow-sm">Vị đậm đà</span></div></div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Box Huế</h3>
+<p class="text-caption text-text-muted mb-4">Gồm: Mè xửng giòn, Trà cung đình Đức Phượng, Mắm ruốc chưng tôm, Ớt bột Cố Đô, Hạt sen sấy.</p>
+<div class="flex flex-col items-stretch gap-4">
+<div>
+<span class="text-xl font-bold text-secondary font-headline-sm">179.000đ – 549.000đ</span>
+</div>
+<div class="flex flex-col gap-2 w-full">
+<button class="w-full px-3 py-2 rounded-xl border border-primary text-primary hover:bg-surface-cream text-caption font-semibold" onclick="openBoxDetail('hue')">
+                    Xem chi tiết
+                  </button>
+<button class="w-full justify-center px-4 py-2 rounded-xl bg-secondary hover:bg-on-secondary-container text-surface-card text-caption font-bold flex items-center gap-1 shadow-sm" onclick="addToCart('Local Box Huế Chuẩn', 299000, 'Huế')">
+<span class="material-symbols-outlined text-[16px]" data-icon="add_shopping_cart">add_shopping_cart</span>
+                    Thêm giỏ hàng
+                  </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Box 3 -->
+<div class="shop-card bg-surface-card rounded-2xl border border-border-warm overflow-hidden hover:shadow-xl transition-all duration-200" data-diet="khong-cay" data-price="179000" data-region="ha-noi" data-tier="kham-pha">
+<div class="h-52 relative overflow-hidden border-b border-border-warm group"><img src="image/hanoi.png" alt="Local Box Hà Thành Nhẹ Tênh" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4"><div class="w-full flex justify-between items-center"><span class="text-caption text-surface-card font-medium">3 Món ăn nhẹ</span><span class="text-caption text-surface-card font-semibold">⭐ 4.8 (115 đánh giá)</span></div></div><div class="absolute top-4 left-4 right-4 flex justify-between items-start"><span class="px-3 py-1 rounded-full text-caption font-bold bg-[#1F4D3A] text-surface-card shadow-sm">Hà Nội</span><span class="px-2.5 py-0.5 rounded text-[11px] bg-status-success/90 backdrop-blur-xs text-surface-card font-bold shadow-sm">Cơ bản</span></div></div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Box Hà Nội</h3>
+<p class="text-caption text-text-muted mb-4">Gồm: Bánh chả, Cốm mộc, Trà tim sen túi lọc, Bánh cốm, Mơ gừng</p>
+<div class="flex flex-col items-stretch gap-4">
+<div>
+<span class="text-xl font-bold text-secondary font-headline-sm">179.000đ – 549.000đ</span>
+</div>
+<div class="flex flex-col gap-2 w-full">
+<button class="w-full px-3 py-2 rounded-xl border border-primary text-primary hover:bg-surface-cream text-caption font-semibold" onclick="openBoxDetail('ha-noi')">
+                    Xem chi tiết
+                  </button>
+<button class="w-full justify-center px-4 py-2 rounded-xl bg-secondary hover:bg-on-secondary-container text-surface-card text-caption font-bold flex items-center gap-1 shadow-sm" onclick="addToCart('Local Box Hà Thành Nhẹ Tênh', 179000, 'Hà Nội')">
+<span class="material-symbols-outlined text-[16px]" data-icon="add_shopping_cart">add_shopping_cart</span>
+                    Thêm giỏ hàng
+                  </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Box 4 (Gift Tier) -->
+<div class="shop-card bg-surface-card rounded-2xl border border-border-warm overflow-hidden hover:shadow-xl transition-all duration-200" data-diet="all" data-price="449000" data-region="hue" data-tier="qua-tang">
+<div class="h-52 relative overflow-hidden border-b border-border-warm group"><img src="image/mientay.jpg" alt="Local box miền tây" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4"><div class="w-full flex justify-between items-center"><span class="text-caption text-surface-card font-medium">7 Món + Khăn Lụa</span><span class="text-caption text-surface-card font-semibold">⭐ 5.0 (98 đánh giá)</span></div></div><div class="absolute top-4 left-4 right-4 flex justify-between items-start"><span class="px-3 py-1 rounded-full text-caption font-bold bg-tertiary-container text-surface-card shadow-sm">Huế Cố Đô</span><span class="px-2.5 py-0.5 rounded text-[11px] bg-tertiary-fixed text-tertiary font-bold shadow-sm">Nâng cấp</span></div></div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Box Miền Tây</h3>
+<p class="text-caption text-text-muted mb-4">Gồm: Bánh phồng sữa, Kẹo dừa, Bánh phồng tôm, Kẹo chuối, Bánh phồng chuối</p>
+<div class="flex flex-col items-stretch gap-4">
+<div>
+<span class="text-xl font-bold text-secondary font-headline-sm">179.000đ – 549.000đ</span>
+</div>
+<div class="flex flex-col gap-2 w-full">
+<button class="w-full px-3 py-2 rounded-xl border border-primary text-primary hover:bg-surface-cream text-caption font-semibold" onclick="navigateTo('gifts')">
+                    Cá nhân hóa
+                  </button>
+<button class="w-full justify-center px-4 py-2 rounded-xl bg-secondary hover:bg-on-secondary-container text-surface-card text-caption font-bold flex items-center gap-1 shadow-sm" onclick="addToCart('Hộp Quà Ngự Uyển Di Sản', 449000, 'Huế')">
+<span class="material-symbols-outlined text-[16px]" data-icon="add_shopping_cart">add_shopping_cart</span>
+                    Thêm giỏ hàng
+                  </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Box 5 -->
+<div class="shop-card bg-surface-card rounded-2xl border border-border-warm overflow-hidden hover:shadow-xl transition-all duration-200" data-diet="all" data-price="329000" data-region="tay-bac" data-tier="chuan">
+<div class="h-52 relative overflow-hidden border-b border-border-warm group"><img src="image/taybac.jpg" alt="Local Box đặc sản Tây Bắc" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4"><div class="w-full flex justify-between items-center"><span class="text-caption text-surface-card font-medium">5 Món đặc sản</span><span class="text-caption text-surface-card font-semibold">⭐ 4.9 (86 đánh giá)</span></div></div><div class="absolute top-4 left-4 right-4 flex justify-between items-start"><span class="px-3 py-1 rounded-full text-caption font-bold bg-primary text-surface-card shadow-sm">Tây Bắc</span><span class="px-2.5 py-0.5 rounded text-[11px] bg-secondary/90 backdrop-blur-xs text-surface-card font-bold shadow-sm">Đậm vị núi rừng</span></div></div>
+<div class="p-6">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Box Tây Bắc</h3>
+<p class="text-caption text-text-muted mb-4">Gồm: Thịt trâu gác bếp, lạp xưởng hun khói, mắc khén, măng khô và trà Shan tuyết.</p>
+<div class="flex flex-col items-stretch gap-4">
+<div>
+<span class="text-xl font-bold text-secondary font-headline-sm">179.000đ – 549.000đ</span>
+</div>
+<div class="flex flex-col gap-2 w-full">
+<button class="w-full px-3 py-2 rounded-xl border border-primary text-primary hover:bg-surface-cream text-caption font-semibold" onclick="openBoxDetail('tay-bac')">
+                    Xem chi tiết
+                  </button>
+<button class="w-full justify-center px-4 py-2 rounded-xl bg-secondary hover:bg-on-secondary-container text-surface-card text-caption font-bold flex items-center gap-1 shadow-sm" onclick="addToCart('Local Box Tây Bắc: Vị Cay &amp; Khói Ngàn', 329000, 'Tây Bắc')">
+<span class="material-symbols-outlined text-[16px]" data-icon="add_shopping_cart">add_shopping_cart</span>
+                    Thêm giỏ hàng
+                  </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== VIEW 3: TRANG CHI TIẾT LOCAL BOX (/hop/:slug) ==================== -->
+<section class="spa-view hidden" id="view-product-detail">
+<div class="max-w-7xl mx-auto px-4 md:px-8 py-10">
+<div class="mb-6 flex items-center gap-2 text-label-sm text-text-muted">
+<button class="hover:text-primary flex items-center gap-1" onclick="navigateTo('shop')">
+<span class="material-symbols-outlined text-[16px]" data-icon="arrow_back">arrow_back</span>
+            Quay lại Cửa hàng
+          </button>
+<span class="">/</span>
+<span class="text-primary font-bold" id="detail-breadcrumb">Hà Nội: "Phố Cổ Mùa Cốm"</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Product Visuals -->
+<div class="lg:col-span-6 space-y-4">
+<div class="h-96 rounded-3xl bg-surface-cream-alt border border-border-warm flex flex-col items-center justify-center p-8 relative overflow-hidden shadow-sm" id="detail-main-img">
+<span class="material-symbols-outlined text-8xl text-secondary mb-4" data-icon="redeem">redeem</span>
+<div class="text-center">
+<span class="font-headline-md text-headline-md text-primary block" id="detail-hero-title">Local Box Hà Nội</span>
+<span class="text-caption text-text-muted">Kích thước hộp: 28 x 22 x 10cm | Giấy Kraft tái chế dập chìm</span>
+</div>
+<span class="absolute top-4 left-4 bg-primary text-surface-card text-caption font-bold px-3 py-1 rounded-full">
+                Sản phẩm độc quyền
+              </span>
+</div>
+<!-- Thumbnail strips -->
+<div class="grid grid-cols-4 gap-3">
+<div class="h-20 rounded-xl bg-surface-card border-2 border-secondary flex items-center justify-center text-primary cursor-pointer">
+<span class="material-symbols-outlined" data-icon="inventory_2">inventory_2</span>
+</div>
+<div class="h-20 rounded-xl bg-surface-card border border-border-warm flex items-center justify-center text-text-muted hover:border-secondary cursor-pointer">
+<span class="material-symbols-outlined" data-icon="menu_book">menu_book</span>
+</div>
+<div class="h-20 rounded-xl bg-surface-card border border-border-warm flex items-center justify-center text-text-muted hover:border-secondary cursor-pointer">
+<span class="material-symbols-outlined" data-icon="qr_code">qr_code</span>
+</div>
+<div class="h-20 rounded-xl bg-surface-card border border-border-warm flex items-center justify-center text-text-muted hover:border-secondary cursor-pointer">
+<span class="material-symbols-outlined" data-icon="card_giftcard">card_giftcard</span>
+</div>
+</div>
+</div>
+<!-- Product Configuration & Actions -->
+<div class="lg:col-span-6 space-y-6">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-cream-alt text-primary font-label-sm text-caption mb-2">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="location_on">location_on</span>
+                <span id="detail-origin">Xuất xứ: Làng Vàng &amp; Phố Hàng, Hà Nội</span>
+              </div>
+<h2 class="font-display-hero text-headline-lg text-primary" id="detail-title">Local Box: Phố Cổ Mùa Cốm</h2>
+<div class="flex items-center gap-3 mt-2 text-caption">
+<div class="flex text-[#E3A82B]">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+<span class="text-text-muted">4.9/5 (348 lượt đánh giá thực tế)</span>
+</div>
+</div>
+<!-- Price Selector by Tier -->
+<div class="bg-surface-cream p-5 rounded-2xl border border-border-warm">
+<span class="text-caption font-bold text-text-muted uppercase block mb-3">Chọn hạng hộp trải nghiệm:</span>
+<div class="grid grid-cols-3 gap-3">
+<button class="detail-tier-btn p-3 rounded-xl border border-border-warm bg-surface-card text-left focus:border-secondary focus:ring-1 focus:ring-secondary transition-all" data-tier="kham-pha" onclick="selectDetailTier('kham-pha', 179000, this)">
+<div class="font-label-md text-label-md text-primary">Cơ bản</div>
+<div class="text-caption text-secondary font-bold">179.000đ</div>
+</button>
+<button class="detail-tier-btn p-3 rounded-xl border-2 border-secondary bg-surface-card text-left shadow-xs transition-all" data-tier="chuan" onclick="selectDetailTier('chuan', 299000, this)">
+<div class="font-label-md text-label-md text-primary font-bold">Tiêu chuẩn (5 món)</div>
+<div class="text-caption text-secondary font-bold">299.000đ</div>
+</button>
+<button class="detail-tier-btn p-3 rounded-xl border border-border-warm bg-surface-card text-left focus:border-secondary focus:ring-1 focus:ring-secondary transition-all" data-tier="qua-tang" onclick="selectDetailTier('qua-tang', 549000, this)">
+<div class="font-label-md text-label-md text-primary">Nâng cấp</div>
+<div class="text-caption text-secondary font-bold">549.000đ</div>
+</button>
+</div>
+</div>
+<!-- Sensory Taste Profile Bar -->
+<div class="bg-surface-card p-5 rounded-2xl border border-border-warm space-y-3">
+<span class="font-label-md text-label-md text-primary block">Thước đo phong vị (Sensory Profile):</span>
+<div class="grid grid-cols-2 gap-x-6 gap-y-2 text-caption">
+<div>
+<div class="flex justify-between mb-1"><span class="">Ngọt thanh</span><span class="font-bold text-primary">85%</span></div>
+<div class="w-full bg-surface-cream h-2 rounded-full overflow-hidden"><div class="bg-secondary h-full rounded-full" style="width: 85%"></div></div>
+</div>
+<div>
+<div class="flex justify-between mb-1"><span class="">Chát hậu ngọt</span><span class="font-bold text-primary">70%</span></div>
+<div class="w-full bg-surface-cream h-2 rounded-full overflow-hidden"><div class="bg-primary h-full rounded-full" style="width: 70%"></div></div>
+</div>
+<div>
+<div class="flex justify-between mb-1"><span class="">Chua dịu</span><span class="font-bold text-primary">40%</span></div>
+<div class="w-full bg-surface-cream h-2 rounded-full overflow-hidden"><div class="bg-[#fabc3f] h-full rounded-full" style="width: 40%"></div></div>
+</div>
+<div>
+<div class="flex justify-between mb-1"><span class="">Độ béo bùi</span><span class="font-bold text-primary">60%</span></div>
+<div class="w-full bg-surface-cream h-2 rounded-full overflow-hidden"><div class="bg-status-success h-full rounded-full" style="width: 60%"></div></div>
+</div>
+</div>
+</div>
+<!-- Inside Item list -->
+<div class="border-t border-border-warm pt-4">
+<span class="font-label-md text-label-md text-primary block mb-3">Danh mục 5 sản phẩm trong hộp Tiêu chuẩn:</span>
+<ul class="space-y-2 text-body-sm text-on-surface-variant">
+<li class="flex items-center justify-between py-1 border-b border-border-warm/30">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="check">check</span>
+                    Trà búp sen Tây Hồ (1 hộp 5 tép)
+                  </span>
+<span class="text-caption text-text-muted">Giá bán lẻ: 120.000đ</span>
+</li>
+<li class="flex items-center justify-between py-1 border-b border-border-warm/30">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="check">check</span>
+                    Ô mai mơ gừng phố Hàng Đường (hũ 200g)
+                  </span>
+<span class="text-caption text-text-muted">Giá bán lẻ: 65.000đ</span>
+</li>
+<li class="flex items-center justify-between py-1 border-b border-border-warm/30">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="check">check</span>
+                    Bánh cốm mộc truyền thống Làng Vòng (hộp 4 cái)
+                  </span>
+<span class="text-caption text-text-muted">Giá bán lẻ: 50.000đ</span>
+</li>
+<li class="flex items-center justify-between py-1 border-b border-border-warm/30">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="check">check</span>
+                    Cốm non sấy giòn bọc đường phèn (túi 150g)
+                  </span>
+<span class="text-caption text-text-muted">Giá bán lẻ: 45.000đ</span>
+</li>
+<li class="flex items-center justify-between py-1">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-secondary" data-icon="check">check</span>
+                    Guide book in màu + Podcast mã QR + Hộ chiếu tem
+                  </span>
+<span class="text-caption text-status-success font-bold">Tặng kèm (Trị giá 50k)</span>
+</li>
+</ul>
+<div class="mt-2 text-caption text-text-muted italic bg-surface-cream p-2.5 rounded-lg border border-border-warm">
+                💡 Tổng giá trị mua lẻ: <span class="line-through">330.000đ</span>. Mua theo Local Box trọn gói chỉ <strong>299.000đ</strong> (Tiết kiệm 31.000đ).
+              </div>
+</div>
+<!-- Action cluster -->
+<div class="space-y-3 pt-4">
+<div class="flex items-center gap-4">
+<button class="flex-1 py-4 rounded-xl bg-secondary hover:bg-on-secondary-container text-surface-card font-label-md font-bold text-center transition-all duration-200 shadow-md" id="detail-buy-button" onclick="buySelectedDetailBox()">
+                  Mua ngay hộp này (299.000đ)
+                </button>
+<button class="px-5 py-4 rounded-xl border border-primary text-primary hover:bg-surface-cream text-caption font-bold flex items-center gap-1.5" onclick="navigateTo('gifts')" title="Tặng quà cho bạn bè">
+<span class="material-symbols-outlined text-[18px]" data-icon="featured_seasonal_and_gifts">featured_seasonal_and_gifts</span>
+                  Gửi tặng
+                </button>
+</div>
+<!-- Re-order Subscription Prompt -->
+<div class="p-3.5 rounded-xl bg-primary-container/10 border border-primary-container/30 flex items-center justify-between text-caption text-primary">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]" data-icon="autorenew">autorenew</span>
+<span class="">Đăng ký nhận mỗi tháng 1 vùng miền mới (Tiết kiệm thêm 10%)</span>
+</div>
+<button class="font-bold underline text-secondary hover:text-on-secondary-container" onclick="showToast('Đã lưu cấu hình đăng ký định kỳ 1 hộp/tháng')">
+                  Đăng ký
+                </button>
+</div>
+</div>
+<!-- Meta attributes -->
+<div class="grid grid-cols-2 gap-4 text-caption text-text-muted border-t border-border-warm pt-4">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary" data-icon="local_shipping">local_shipping</span>
+                Giao hàng toàn quốc: 3 - 5 ngày
+              </div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary" data-icon="schedule">schedule</span>
+                Hạn sử dụng: 60 - 90 ngày
+              </div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary" data-icon="warning">warning</span>
+                Dị ứng: Chứa đậu xanh, mè rang
+              </div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-status-success" data-icon="recycling">recycling</span>
+                Bao bì: 100% tái chế phân hủy
+              </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== VIEW 4: CHỢ ĐẶC SẢN LẺ (/dac-san) ==================== -->
+<section class="spa-view hidden" id="view-market">
+<div class="max-w-7xl mx-auto px-4 md:px-8 py-10">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-8">
+<div>
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider block mb-1">Góc nhâm nhi thêm</span>
+<h2 class="text-headline-lg font-headline-lg text-primary">Chợ Đặc Sản Lẻ Độc Quyền</h2>
+<p class="text-text-muted mt-2">Tùy ý nhặt thêm những món quà vặt thơm lành bỏ vào giỏ hàng hoặc bổ sung vào hộp đã chọn.</p>
+</div>
+<div class="mt-4 md:mt-0 flex gap-2">
+<span class="px-3 py-1.5 rounded-full bg-surface-card border border-border-warm text-caption font-bold text-primary">
+              Tổng số: 12 đặc sản thủ công
+            </span>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Item 1 -->
+<div class="bg-surface-card rounded-2xl p-5 border border-border-warm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="h-40 rounded-xl bg-surface-cream-alt flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-6xl text-secondary" data-icon="bakery_dining">bakery_dining</span>
+</div>
+<span class="px-2 py-0.5 rounded text-[11px] bg-surface-cream-alt text-primary font-bold">Hà Nội</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-2">Ô Mai Mơ Gừng Bọc Đường Phèn</h3>
+<p class="text-caption text-text-muted mt-1">Mơ nếp chua cay tròn vị, hũ thủy tinh tái sử dụng 200g.</p>
+</div>
+<div class="flex items-center justify-between mt-5 pt-3 border-t border-border-warm">
+<span class="font-bold text-secondary text-base">65.000đ</span>
+<button class="px-3.5 py-1.5 bg-primary hover:bg-primary-container text-surface-card rounded-xl text-caption font-bold flex items-center gap-1" onclick="addToCart('Ô Mai Mơ Gừng', 65000, 'Hà Nội')">
+                + Thêm
+              </button>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-card rounded-2xl p-5 border border-border-warm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="h-40 rounded-xl bg-surface-cream-alt flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-6xl text-primary" data-icon="emoji_food_beverage">emoji_food_beverage</span>
+</div>
+<span class="px-2 py-0.5 rounded text-[11px] bg-surface-cream-alt text-primary font-bold">Hà Nội</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-2">Trà Búp Sen Tây Hồ</h3>
+<p class="text-caption text-text-muted mt-1">Ướp từ hoa sen bách diệp sáng sớm hồ Tây, thơm ngát.</p>
+</div>
+<div class="flex items-center justify-between mt-5 pt-3 border-t border-border-warm">
+<span class="font-bold text-secondary text-base">120.000đ</span>
+<button class="px-3.5 py-1.5 bg-primary hover:bg-primary-container text-surface-card rounded-xl text-caption font-bold flex items-center gap-1" onclick="addToCart('Trà Búp Sen Tây Hồ', 120000, 'Hà Nội')">
+                + Thêm
+              </button>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface-card rounded-2xl p-5 border border-border-warm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="h-40 rounded-xl bg-surface-cream-alt flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-6xl text-secondary" data-icon="cookie">cookie</span>
+</div>
+<span class="px-2 py-0.5 rounded text-[11px] bg-surface-cream-alt text-primary font-bold">Huế</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-2">Mè Xửng Giòn Cung Đình</h3>
+<p class="text-caption text-text-muted mt-1">Đặc sản Cố Đô bùi béo mè rang và đậu phụng thơm ngậy.</p>
+</div>
+<div class="flex items-center justify-between mt-5 pt-3 border-t border-border-warm">
+<span class="font-bold text-secondary text-base">45.000đ</span>
+<button class="px-3.5 py-1.5 bg-primary hover:bg-primary-container text-surface-card rounded-xl text-caption font-bold flex items-center gap-1" onclick="addToCart('Mè Xửng Giòn', 45000, 'Huế')">
+                + Thêm
+              </button>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="bg-surface-card rounded-2xl p-5 border border-border-warm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div>
+<div class="h-40 rounded-xl bg-surface-cream-alt flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-6xl text-tertiary-container" data-icon="soup_kitchen">soup_kitchen</span>
+</div>
+<span class="px-2 py-0.5 rounded text-[11px] bg-surface-cream-alt text-primary font-bold">Huế</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-2">Mắm Ruốc Chưng Tôm Thịt</h3>
+<p class="text-caption text-text-muted mt-1">Gia vị bí truyền chưng sả ớt, món ăn đưa cơm số một miền Trung.</p>
+</div>
+<div class="flex items-center justify-between mt-5 pt-3 border-t border-border-warm">
+<span class="font-bold text-secondary text-base">85.000đ</span>
+<button class="px-3.5 py-1.5 bg-primary hover:bg-primary-container text-surface-card rounded-xl text-caption font-bold flex items-center gap-1" onclick="addToCart('Mắm Ruốc Chưng Tôm Thịt', 85000, 'Huế')">
+                + Thêm
+              </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== VIEW 5: QUÀ TẶNG (/qua-tang) & TÙY CHỌN RIÊNG ==================== -->
+<section class="spa-view hidden" id="view-gifts">
+<div class="max-w-7xl mx-auto px-4 md:px-8 py-10">
+<div class="text-center max-w-2xl mx-auto mb-12">
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider block mb-1">Dịch vụ may đo quà tặng</span>
+<h2 class="text-headline-lg font-headline-lg text-primary">Gửi Gắm Tình Thân Qua Hộp Quà VietNom</h2>
+<p class="text-text-muted mt-3">Chọn đúng dịp, viết thiệp thư&nbsp; và gửi trao tận tay người thương.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 bg-surface-card p-6 md:p-10 rounded-3xl border border-border-warm shadow-md">
+<!-- Gift Customizer Form -->
+<div class="lg:col-span-7 space-y-6">
+<!-- Step 1: Chọn Dịp -->
+<div>
+<label class="block font-label-md text-label-md text-primary mb-3">1. Bạn muốn gửi quà nhân dịp nào?</label>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+<button class="gift-occ-btn p-3 rounded-xl border-2 border-secondary bg-surface-cream text-center text-caption font-bold text-secondary" onclick="selectGiftOccasion(this, 'Sinh nhật')" type="button">
+                  🎂 Sinh nhật
+                </button>
+<button class="gift-occ-btn p-3 rounded-xl border border-border-warm bg-surface text-center text-caption text-text-muted hover:border-secondary" onclick="selectGiftOccasion(this, 'Tri ân đối tác')" type="button">
+                  🤝 Tri ân đối tác
+                </button>
+<button class="gift-occ-btn p-3 rounded-xl border border-border-warm bg-surface text-center text-caption text-text-muted hover:border-secondary" onclick="selectGiftOccasion(this, 'Tết đoàn viên')" type="button">
+                  🏮 Tết cổ truyền
+                </button>
+<button class="gift-occ-btn p-3 rounded-xl border border-border-warm bg-surface text-center text-caption text-text-muted hover:border-secondary" onclick="selectGiftOccasion(this, 'Gửi người xa quê')" type="button">
+                  ✈️ Gửi người xa xứ
+                </button>
+</div>
+</div>
+<!-- Step 2: Chọn Hộp Quà Cơ Bản -->
+<div>
+<label class="block font-label-md text-label-md text-primary mb-2">2. Chọn phiên bản hộp quà:</label>
+<select class="w-full rounded-xl border-border-warm bg-surface-cream text-body-sm py-3 px-4 focus:ring-secondary focus:border-secondary" id="gift-box-type" onchange="updateGiftPreview()">
+<option value="Hộp Quà Di Sản Hà Nội (449.000đ)">Hộp Quà Di Sản Hà Nội — 449.000đ (Bao gồm khăn lụa + Trà sen)</option>
+<option value="Hộp Quà Cố Đô Huế Vương Giả (449.000đ)">Hộp Quà Cố Đô Huế Vương Giả — 449.000đ (Bao gồm gốm sứ + 7 món)</option>
+<option value="Hộp Đôi Sông Hồng &amp; Hương Giang (799.000đ)">Combo Hộp Đôi Sông Hồng &amp; Hương Giang — 799.000đ</option>
+</select>
+</div>
+<!-- Step 3: Thông Tin Người Nhận & Thiệp Viết Tay -->
+<div class="space-y-4">
+<label class="block font-label-md text-label-md text-primary">3. Lời nhắn thiệp viết tay (Nghệ nhân nắn nót viết bút mực):</label>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<input class="w-full rounded-xl border-border-warm bg-surface-cream text-body-sm py-2.5 px-3" id="gift-receiver-name" oninput="updateGiftPreview()" placeholder="Tên người nhận (ví dụ: Chị Lan Anh)" type="text">
+<input class="w-full rounded-xl border-border-warm bg-surface-cream text-body-sm py-2.5 px-3" id="gift-sender-name" oninput="updateGiftPreview()" placeholder="Tên người gửi (ví dụ: Tuấn Minh)" type="text">
+</div>
+<textarea class="w-full rounded-xl border-border-warm bg-surface-cream text-body-sm py-2.5 px-3" id="gift-message" oninput="updateGiftPreview()" placeholder="Nhập lời chúc từ tận đáy lòng (Tối đa 150 ký tự)..." rows="3"></textarea>
+</div>
+<!-- Step 4: Tùy Chọn Tế Nhị & Giao Hàng -->
+<div class="p-4 rounded-2xl bg-surface-cream border border-border-warm space-y-3">
+<span class="font-label-sm text-label-sm text-primary block">Tùy chọn đóng gói tế nhị &amp; chu đáo:</span>
+<label class="flex items-center gap-3 cursor-pointer">
+<input checked="" class="rounded border-border-warm text-primary focus:ring-0 w-4 h-4" type="checkbox">
+<span class="text-caption text-on-surface">Không in giá tiền lên hóa đơn giao hàng (Che giá bảo mật)</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer">
+<input checked="" class="rounded border-border-warm text-primary focus:ring-0 w-4 h-4" type="checkbox">
+<span class="text-caption text-on-surface">Bọc lụa Furoshiki thắt nơ nghệ thuật phong cách thủ công</span>
+</label>
+<label class="flex items-center gap-3 cursor-pointer">
+<input class="rounded border-border-warm text-primary focus:ring-0 w-4 h-4" type="checkbox">
+<span class="text-caption text-on-surface">Giao hẹn giờ chính xác ngày nhận (Miễn phí dịch vụ)</span>
+</label>
+</div>
+<button class="w-full py-4 rounded-xl bg-secondary hover:bg-on-secondary-container text-surface-card font-label-md font-bold text-center transition-all shadow-md" onclick="submitGiftOrder()">
+              Xác nhận và Cho Vào Giỏ Hàng Quà Tặng
+            </button>
+</div>
+<!-- Realtime Card Preview -->
+<div class="lg:col-span-5 flex flex-col justify-center">
+<div class="bg-surface-cream-alt p-6 md:p-8 rounded-3xl border border-border-warm relative shadow-inner">
+<div class="text-center pb-4 border-b border-border-warm/60">
+<span class="text-[11px] font-label-sm uppercase tracking-widest text-secondary block">Mô phỏng thiệp quà gửi đi</span>
+<span class="font-headline-sm text-headline-sm text-primary" id="preview-occasion">Dịp: Sinh nhật</span>
+</div>
+<div class="py-8 space-y-4">
+<div class="text-body-sm text-primary font-bold">
+                  Kính gửi: <span class="text-secondary" id="preview-receiver">Chị Lan Anh</span>,
+                </div>
+<p class="text-body-sm font-title-editorial italic text-on-surface-variant leading-relaxed" id="preview-msg-text">
+                  "Chúc chị tuổi mới luôn an yên, nhiều niềm vui và luôn giữ mãi ngọn lửa nhiệt huyết trong công việc. Mong hộp quà mang hương vị quê nhà này sẽ đem lại cho chị phút giây thư thả!"
+                </p>
+<div class="text-right text-body-sm text-primary font-bold pt-4">
+                  Thương mến,<br>
+<span class="text-secondary font-headline-sm" id="preview-sender">Tuấn Minh</span>
+</div>
+</div>
+<div class="pt-4 border-t border-border-warm/60 flex items-center justify-between text-caption text-text-muted">
+
+<span class="">Giấy Dó Bắc Ninh cao cấp</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== VIEW 6: GUIDE BOOK ĐIỆN TỬ (/guide-book) ==================== -->
+<section class="spa-view hidden" id="view-guidebook">
+<div class="max-w-5xl mx-auto px-4 md:px-8 py-10">
+<div class="text-center max-w-2xl mx-auto mb-10">
+<span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider block mb-1">Cẩm nang đồng hành</span>
+<h2 class="text-headline-lg font-headline-lg text-primary">VietNom Guidebook</h2>
+
+</div>
+<!-- Virtual Interactive Book Container -->
+<div class="bg-surface-card rounded-3xl border-2 border-border-warm shadow-2xl p-6 md:p-12 relative overflow-hidden">
+<!-- Book Spine visual -->
+<div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-8 -translate-x-1/2 bg-gradient-to-r from-border-warm/20 via-border-warm to-border-warm/20 pointer-events-none z-20"></div>
+<!-- Page Flip Navigation Header -->
+<div class="flex items-center justify-between border-b border-border-warm pb-6 mb-8">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-3xl text-secondary" data-icon="menu_book">menu_book</span>
+<div>
+<span class="font-headline-sm text-headline-sm text-primary block">Tập II: Thức Quà Mùa Cốm &amp; Trầm Tích Sông Hương</span>
+<span class="text-caption text-text-muted">Ấn bản phát hành Tháng 03/2025</span>
+</div>
+</div>
+<!-- Page indicators -->
+<div class="flex items-center gap-3">
+<button class="p-2 rounded-xl border border-border-warm hover:bg-surface-cream text-primary disabled:opacity-30 disabled:pointer-events-none" id="btn-prev-page" onclick="prevBookPage()" disabled="">
+<span class="material-symbols-outlined" data-icon="chevron_left">chevron_left</span>
+</button>
+<span class="text-label-md font-label-md text-primary font-bold" id="book-page-indicator">Trang 1 / 4</span>
+<button class="p-2 rounded-xl border border-border-warm hover:bg-surface-cream text-primary" id="btn-next-page" onclick="nextBookPage()">
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- BOOK PAGES (Virtual Flipped Content) -->
+<div class="min-h-[420px]" id="book-viewport">
+<!-- Page 1: Mục Lục & Lời Dẫn -->
+<div class="book-page grid grid-cols-1 md:grid-cols-2 gap-8 items-center" id="book-page-1">
+<div class="space-y-4">
+<span class="text-caption font-bold px-2.5 py-1 rounded bg-surface-cream text-secondary">Phần mở đầu</span>
+<h3 class="font-display-hero text-headline-lg text-primary">Nếp Nhà &amp; Ký Ức</h3>
+<p class="text-body-md text-on-surface-variant leading-relaxed">
+                  "Ẩm thực Việt Nam không nằm ở sự cầu kỳ của kỹ thuật Tây phương, mà ẩn mình trong thời gian và sự kiên nhẫn. Một nắm cốm non đợi qua hai mùa mưa, một búp trà sen ngậm sương qua trọn đêm hè..."
+                </p>
+<div class="p-4 rounded-xl bg-surface-cream border border-border-warm text-caption text-primary">
+<strong>Mục lục nhanh:</strong><br>
+                  Trang 2: Nghệ nhân ướp sen Tây Hồ &amp; Podcast âm thanh<br>
+                  Trang 3: Pairing Guide: Cách kết hợp Trà Sen cùng Ô Mai chuẩn vị<br>
+                  Trang 4: Bản đồ thu nhỏ &amp; Tích điểm Hộ chiếu
+                </div>
+</div>
+<div class="bg-surface-cream-alt rounded-2xl p-6 border border-border-warm flex flex-col items-center justify-center text-center">
+<span class="material-symbols-outlined text-7xl text-primary mb-3" data-icon="local_cafe">local_cafe</span>
+<div class="font-headline-sm text-headline-sm text-primary mb-1">Dành cho:</div>
+<p class="text-caption text-text-muted">Dành riêng cho người yêu sự chậm rãi của nghệ thuật ẩm thực truyền thống.</p>
+</div>
+</div>
+<!-- Page 2: Chuyện Nghệ Nhân & Podcast Audio -->
+<div class="book-page grid grid-cols-1 md:grid-cols-2 gap-8 items-center hidden" id="book-page-2">
+<div class="space-y-4">
+<span class="text-caption font-bold px-2.5 py-1 rounded bg-secondary/10 text-secondary">Chân dung nghệ nhân</span>
+<h3 class="font-headline-sm text-headline-lg text-primary">Ông Cụ Năm &amp; 50 Năm Ướp Sen</h3>
+<p class="text-body-sm text-on-surface-variant leading-relaxed">
+                  Mỗi sáng sớm&nbsp; vào lúc 4h30 khi sương còn giăng bảng lảng mặt hồ Quảng Bá, chiếc thuyền nan nhỏ của cụ Năm lại rẽ nước, bóc từng cánh hoa sen bách diệp, rải nhẹ từng lớp chè Shan tuyết rồi buộc kín bằng sợi rơm nếp dẻo dai.
+                </p>
+<!-- Audio Player Mockup -->
+<div class="bg-surface-cream p-4 rounded-2xl border border-border-warm space-y-2">
+<div class="flex items-center justify-between text-caption font-bold text-primary">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[18px]" data-icon="podcasts">podcasts</span>
+                      Sương sớm Hồ Tây&nbsp;</span>
+<span class="text-secondary">01:45 / 03:20</span>
+</div>
+<div class="w-full bg-border-warm h-2 rounded-full overflow-hidden">
+<div class="bg-secondary h-full rounded-full" style="width: 52%"></div>
+</div>
+<div class="flex items-center justify-center gap-4 pt-1">
+<button class="text-primary hover:text-secondary"><span class="material-symbols-outlined" data-icon="replay_10">replay_10</span></button>
+<button class="w-8 h-8 rounded-full bg-secondary text-surface-card flex items-center justify-center" onclick="toggleAudioDemo(this)">
+<span class="material-symbols-outlined text-[20px]" data-icon="pause">pause</span>
+</button>
+<button class="text-primary hover:text-secondary"><span class="material-symbols-outlined" data-icon="forward_10">forward_10</span></button>
+</div>
+</div>
+</div>
+<div class="bg-surface-cream rounded-2xl p-6 border border-border-warm text-center space-y-3">
+<span class="material-symbols-outlined text-6xl text-secondary" data-icon="qr_code_scanner">qr_code_scanner</span>
+<div class="font-headline-sm text-headline-sm text-primary">Quét mã QR trên tem hộp</div>
+<p class="text-caption text-text-muted">Mỗi chiếc hộp giao tới tay bạn đều đính kèm mã QR vật lý để nghe bản thu âm chất lượng cao do chính VietNom tổng hợp.</p>
+</div>
+</div>
+<!-- Page 3: Pairing Guide (Công thức kết hợp) -->
+<div class="book-page grid grid-cols-1 md:grid-cols-2 gap-8 items-center hidden" id="book-page-3">
+<div class="space-y-4">
+<span class="text-caption font-bold px-2.5 py-1 rounded bg-[#E3A82B]/20 text-tertiary">Pairing Guide</span>
+<h3 class="font-headline-sm text-headline-lg text-primary">Nghệ Thuật Kết Hợp Món</h3>
+<div class="space-y-3 text-body-sm">
+<div class="p-3.5 rounded-xl bg-surface-cream border border-border-warm">
+<strong class="text-primary block font-semibold mb-1">1. Trà Sen + Ô Mai Mơ Gừng:</strong>
+                    Vị chát dịu của trà giúp cân bằng tính cay nóng của gừng và vị chua của mơ, tạo hậu vị ngọt sâu cổ họng.
+                  </div>
+<div class="p-3.5 rounded-xl bg-surface-cream border border-border-warm">
+<strong class="text-primary block font-semibold mb-1">2. Trà Cung Đình + Mè Xửng Giòn:</strong>
+                    Mạch nha béo ngậy được thanh lọc ngay tức thì nhờ vị thảo mộc của hoa cúc, cam thảo và kỷ tử.
+                  </div>
+</div>
+</div>
+<div class="bg-surface-cream-alt rounded-2xl p-6 border border-border-warm flex flex-col items-center justify-center text-center">
+<span class="material-symbols-outlined text-7xl text-status-success mb-3" data-icon="soup_kitchen">soup_kitchen</span>
+<div class="font-headline-sm text-headline-sm text-primary mb-1">Nhiệt độ nước lý tưởng</div>
+<p class="text-caption text-text-muted">Trà sen: 85°C – 90°C (Không dùng nước sôi 100°C làm cháy hương hoa quý).</p>
+</div>
+</div>
+<!-- Page 4: Bản Đồ Thu Nhỏ & Tem Tích Điểm -->
+<div class="book-page grid grid-cols-1 md:grid-cols-2 gap-8 items-center hidden" id="book-page-4">
+<div class="space-y-4">
+<span class="text-caption font-bold px-2.5 py-1 rounded bg-status-success/20 text-status-success">Du ngoạn ẩm thực</span>
+<h3 class="font-headline-sm text-headline-lg text-primary">Hành Trình Tiếp Theo Của Bạn</h3>
+<p class="text-body-sm text-on-surface-variant leading-relaxed">
+                  Bạn đã giải mã hương vị của 2 tọa độ: Hà Nội và Huế. Hộp tiếp theo của bạn sẽ là đỉnh đèo Ô Quy Hồ với phong vị thịt trâu sấy mắc khén?
+                </p>
+<div class="pt-2">
+<button class="px-6 py-3 rounded-xl bg-primary hover:bg-primary-container text-surface-card font-label-md text-caption font-bold flex items-center gap-2" onclick="navigateTo('passport')">
+<span class="material-symbols-outlined text-[18px]" data-icon="stars">stars</span>
+                    Xem hộ chiếu ẩm thực của bạn -&gt;</button>
+</div>
+</div>
+<div class="bg-surface-cream rounded-2xl p-6 border border-border-warm text-center space-y-3">
+<span class="material-symbols-outlined text-6xl text-secondary" data-icon="loyalty">loyalty</span>
+<div class="font-headline-sm text-headline-sm text-primary">Đã tích lũy +100 Điểm</div>
+<p class="text-caption text-text-muted">Đổi ngay quà tặng thủ công hoặc giảm trực tiếp 50.000đ cho đơn hàng tiếp theo.</p>
+</div>
+</div>
+</div>
+<!-- Bottom Footer Navigation helper -->
+<div class="mt-8 pt-4 border-t border-border-warm flex items-center justify-between text-caption text-text-muted">
+
+<span class="">VietNom Guidebook © 2025</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== VIEW 7: HỘ CHIẾU CHỮ S (/ho-chieu) ==================== -->
+<section class="spa-view hidden" id="view-passport">
+<div class="max-w-7xl mx-auto px-4 md:px-8 py-10">
+<div class="text-center max-w-2xl mx-auto mb-10">
+<h2 class="text-headline-lg font-headline-lg text-primary">Hộ Chiếu Ẩm Thực&nbsp;</h2>
+<p class="text-text-muted mt-2">Mỗi hộp bạn mở là một con tem di sản được đóng dấu. Khám phá đủ 5 vùng để nhận danh hiệu "Đại Sứ Ẩm Thực Bản Địa".</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Passport Card Summary -->
+<div class="lg:col-span-4 bg-surface-card p-6 md:p-8 rounded-3xl border border-border-warm shadow-md space-y-6">
+<div class="flex items-center gap-4 border-b border-border-warm pb-6">
+<div class="w-16 h-16 rounded-2xl bg-primary-container text-surface-card flex items-center justify-center text-2xl font-bold font-headline-md">
+                VN
+              </div>
+<div>
+<span class="text-caption text-text-muted">Hộ chiếu số #84920</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Nguyễn Hoàng Long</h3>
+<span class="px-2 py-0.5 rounded text-[11px] bg-secondary/10 text-secondary font-bold">Hạng: Người Du Ngoạn</span>
+</div>
+</div>
+<!-- Progress meter -->
+<div class="space-y-2">
+<div class="flex justify-between text-body-sm font-semibold">
+<span class="">Tiến độ khám phá:</span>
+<span class="text-secondary" id="passport-progress-label">2 / 5 Vùng (40%)</span>
+</div>
+<div class="w-full h-3 bg-surface-cream rounded-full overflow-hidden border border-border-warm">
+<div class="h-full bg-secondary rounded-full transition-all duration-500" id="passport-progress-bar" style="width: 40%"></div>
+</div>
+<p class="text-caption text-text-muted" id="passport-progress-copy">Bạn đã khám phá 2 vùng. Tiếp tục mua Local Box từ những vùng mới để hoàn thành hành trình.</p>
+</div>
+<!-- Stamp count -->
+<div class="grid grid-cols-2 gap-3 pt-2">
+<div class="p-3.5 rounded-xl bg-surface-cream border border-border-warm text-center">
+<span class="text-2xl font-headline-lg font-bold text-primary">150</span>
+<span class="text-caption text-text-muted block">Điểm tích lũy</span>
+</div>
+<div class="p-3.5 rounded-xl bg-surface-cream border border-border-warm text-center">
+<span class="text-2xl font-headline-lg font-bold text-secondary" id="passport-stamp-count">02</span>
+<span class="text-caption text-text-muted block">Tem đã đóng dấu</span>
+</div>
+</div>
+<button class="w-full py-3 rounded-xl bg-primary text-surface-card font-label-md text-caption font-bold" onclick="showToast('Mã quà tặng của bạn: VIETNOM-LOYAL-50K')">
+              Đổi điểm lấy quà thưởng (150 điểm)
+            </button>
+</div>
+<!-- Vietnam map image -->
+<div class="lg:col-span-8 bg-surface-card p-6 md:p-8 rounded-3xl border border-border-warm shadow-md">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-6 flex items-center justify-between">
+<span class="">Bản Đồ Các Tọa Độ Đã Chinh Phục</span>
+<span class="text-caption text-secondary font-semibold">Cập nhật thời gian thực</span>
+</h3>
+<div class="flex justify-center rounded-2xl bg-surface-cream p-4 md:p-6">
+<img
+  src="image/0010d0c5-2bf2-44af-a879-e91fec3201cf.png"
+  alt="Bản đồ Việt Nam - thay ảnh tại đường dẫn images/vietnam-map.png"
+  class="w-full max-w-[520px] h-auto object-contain"
+/>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- ==================== DRAWER GIỎ HÀNG & THANH TOÁN (CHECKOUT) ==================== -->
+<div class="fixed inset-0 bg-primary/40 backdrop-blur-xs z-50 transition-opacity duration-300 hidden" id="cart-drawer-overlay" onclick="toggleCartDrawer(false)"></div>
+<div class="fixed right-0 top-0 bottom-0 w-full max-w-md bg-surface shadow-2xl z-50 transition-transform duration-300 flex flex-col border-l border-border-warm translate-x-full" id="cart-drawer">
+<!-- Drawer Header -->
+<div class="p-6 border-b border-border-warm flex items-center justify-between bg-surface-cream">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-2xl text-primary" data-icon="shopping_bag">shopping_bag</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Giỏ Hàng Bản Địa</h3>
+<span class="text-caption font-bold px-2 py-0.5 rounded-full bg-secondary text-surface-card" id="cart-item-count">3 món</span>
+</div>
+<button class="p-2 rounded-xl hover:bg-surface-cream-alt text-primary" onclick="toggleCartDrawer(false)">
+<span class="material-symbols-outlined text-2xl" data-icon="close">close</span>
+</button>
+</div>
+<!-- Free Shipping Progress Tracker -->
+<div class="bg-surface-cream-alt p-4 border-b border-border-warm">
+<div class="flex justify-between text-caption font-label-sm mb-1.5">
+<span class="text-primary font-bold" id="shipping-target-msg">✨ Bạn đã đủ điều kiện Freeship toàn quốc!</span>
+<span class="text-status-success font-bold">0đ Ship</span>
+</div>
+<div class="w-full h-2 bg-surface-card rounded-full overflow-hidden">
+<div class="h-full bg-status-success rounded-full" id="shipping-bar" style="width: 100%"></div>
+</div>
+</div>
+<!-- Cart Item List -->
+<div class="flex-grow overflow-y-auto p-6 space-y-4 custom-scroll" id="cart-items-list">
+          <div class="flex items-center justify-between p-3.5 rounded-2xl bg-surface-cream border border-border-warm gap-3">
+            <div class="flex-grow">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-surface-card text-primary border border-border-warm">Hà Nội</span>
+              <h4 class="font-label-md text-label-md text-primary font-semibold mt-1 leading-snug">Local Box Chuẩn: Phố Cổ Mùa Cốm</h4>
+              <div class="text-caption text-secondary font-bold mt-0.5">299.000đ</div>
+            </div>
+            <div class="flex items-center gap-2 shrink-0">
+              <div class="flex items-center border border-border-warm rounded-xl bg-surface-card">
+                <button onclick="updateCartQty(1, -1)" class="px-2.5 py-1 text-primary hover:text-secondary font-bold text-sm">-</button>
+                <span class="px-2 text-caption font-bold text-primary">1</span>
+                <button onclick="updateCartQty(1, 1)" class="px-2.5 py-1 text-primary hover:text-secondary font-bold text-sm">+</button>
+              </div>
+            </div>
+          </div>
+        
+          <div class="flex items-center justify-between p-3.5 rounded-2xl bg-surface-cream border border-border-warm gap-3">
+            <div class="flex-grow">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-surface-card text-primary border border-border-warm">Huế</span>
+              <h4 class="font-label-md text-label-md text-primary font-semibold mt-1 leading-snug">Local Box Chuẩn: Vị Huế Cố Đô</h4>
+              <div class="text-caption text-secondary font-bold mt-0.5">299.000đ</div>
+            </div>
+            <div class="flex items-center gap-2 shrink-0">
+              <div class="flex items-center border border-border-warm rounded-xl bg-surface-card">
+                <button onclick="updateCartQty(2, -1)" class="px-2.5 py-1 text-primary hover:text-secondary font-bold text-sm">-</button>
+                <span class="px-2 text-caption font-bold text-primary">1</span>
+                <button onclick="updateCartQty(2, 1)" class="px-2.5 py-1 text-primary hover:text-secondary font-bold text-sm">+</button>
+              </div>
+            </div>
+          </div>
+        
+          <div class="flex items-center justify-between p-3.5 rounded-2xl bg-surface-cream border border-border-warm gap-3">
+            <div class="flex-grow">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-surface-card text-primary border border-border-warm">Hà Nội</span>
+              <h4 class="font-label-md text-label-md text-primary font-semibold mt-1 leading-snug">Ô Mai Mơ Gừng Cổ Truyền</h4>
+              <div class="text-caption text-secondary font-bold mt-0.5">65.000đ</div>
+            </div>
+            <div class="flex items-center gap-2 shrink-0">
+              <div class="flex items-center border border-border-warm rounded-xl bg-surface-card">
+                <button onclick="updateCartQty(3, -1)" class="px-2.5 py-1 text-primary hover:text-secondary font-bold text-sm">-</button>
+                <span class="px-2 text-caption font-bold text-primary">1</span>
+                <button onclick="updateCartQty(3, 1)" class="px-2.5 py-1 text-primary hover:text-secondary font-bold text-sm">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<!-- Cart Footer & Checkout Summary -->
+<div class="p-6 border-t border-border-warm bg-surface-cream space-y-4">
+<!-- Promo code input -->
+<div class="flex gap-2">
+<input class="w-full text-caption rounded-xl border-border-warm bg-surface py-2 px-3 focus:ring-0" id="coupon-code" placeholder="Mã giảm giá (ví dụ: VIETNOM50)" type="text">
+<button class="px-4 py-2 bg-primary text-surface-card rounded-xl text-caption font-bold shrink-0" onclick="applyCoupon()">Áp dụng</button>
+</div>
+<!-- Pricing calculation -->
+<div class="space-y-1.5 text-body-sm">
+<div class="flex justify-between text-text-muted">
+<span class="">Tạm tính:</span>
+<span class="font-semibold text-primary" id="cart-subtotal">663.000đ</span>
+</div>
+<div class="flex justify-between text-text-muted">
+<span class="">Phí vận chuyển (Tiêu chuẩn):</span>
+<span class="text-status-success font-bold">Miễn phí</span>
+</div>
+<div class="flex justify-between text-text-muted" id="discount-row" style="display: none;">
+<span class="">Giảm giá khuyến mãi:</span>
+<span class="text-secondary font-bold" id="cart-discount">-50.000đ</span>
+</div>
+<div class="flex justify-between text-base font-bold text-primary pt-2 border-t border-border-warm">
+<span class="">Tổng thanh toán:</span>
+<span class="text-secondary font-headline-sm text-xl" id="cart-total">663.000đ</span>
+</div>
+</div>
+<!-- Action buttons -->
+<button class="w-full py-4 rounded-xl bg-secondary hover:bg-on-secondary-container text-surface-card font-label-md font-bold text-center shadow-md active:scale-98 transition-all flex items-center justify-center gap-2" onclick="openCheckoutModal()">
+<span class="">Tiến hành đặt hàng &amp; Thanh toán VietQR</span>
+<span class="material-symbols-outlined text-[18px]" data-icon="lock">lock</span>
+</button>
+<p class="text-[11px] text-center text-text-muted">
+        🔒 Cam kết hoàn tiền 100% nếu sản phẩm bị hư hỏng hoặc bể vỡ trong quá trình vận chuyển.
+      </p>
+</div>
+</div>
+<!-- ==================== MODAL: THANH TOÁN VIETQR ==================== -->
+<div class="fixed inset-0 bg-primary/60 backdrop-blur-xs z-50 hidden flex items-center justify-center p-4" id="checkout-modal">
+<div class="bg-surface rounded-3xl max-w-lg w-full border border-border-warm shadow-2xl overflow-hidden p-6 md:p-8 space-y-6 max-h-[90vh] overflow-y-auto">
+<div class="flex justify-between items-center border-b border-border-warm pb-4">
+<div>
+<span class="text-caption font-bold text-secondary uppercase">Thanh toán an toàn</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Quét Mã VietQR Chuyển Khoản</h3>
+</div>
+<button class="p-1.5 rounded-lg hover:bg-surface-cream text-text-muted" onclick="closeCheckoutModal()">
+<span class="material-symbols-outlined" data-icon="close">close</span>
+</button>
+</div>
+<!-- QR Code Visual -->
+<div class="bg-surface-cream-alt p-6 rounded-2xl border border-border-warm text-center space-y-3">
+<div class="w-48 h-48 mx-auto bg-surface-card p-3 rounded-2xl border border-border-warm shadow-sm flex flex-col items-center justify-center relative">
+<span class="material-symbols-outlined text-8xl text-primary" data-icon="qr_code_2">qr_code_2</span>
+<span class="text-[10px] font-bold text-text-muted uppercase">VIETQR 24/7 AUTO</span>
+</div>
+<div class="text-caption text-text-muted">
+          Quét bằng ứng dụng ngân hàng bất kỳ (Vietcombank, MB, Techcombank...)
+        </div>
+<div class="bg-surface-card p-3 rounded-xl border border-border-warm text-caption space-y-1 text-left font-mono">
+<div class="">Ngân hàng: <strong>MB BANK</strong></div>
+<div class="">Số tài khoản: <strong>090123456789</strong></div>
+<div class="">Chủ tài khoản: <strong>VIETNOM LOCAL BOX CO</strong></div>
+<div class="">Số tiền: <strong class="text-secondary" id="qr-modal-amount">663.000đ</strong></div>
+<div class="">Nội dung CK: <strong class="text-primary">VIETNOM 84920</strong></div>
+</div>
+</div>
+<div class="space-y-3">
+<button class="w-full py-3.5 rounded-xl bg-status-success text-surface-card font-label-md font-bold shadow-md hover:bg-opacity-90 transition-all flex items-center justify-center gap-2" onclick="completeOrderSuccess()">
+<span class="material-symbols-outlined text-[20px]" data-icon="check_circle">check_circle</span>
+          Tôi đã chuyển khoản thành công
+        </button>
+<button class="w-full py-2.5 rounded-xl border border-border-warm text-text-muted font-label-md text-caption hover:bg-surface-cream" onclick="closeCheckoutModal()">
+          Thay đổi thông tin đơn hàng
+        </button>
+</div>
+</div>
+</div>
+<!-- ==================== MODAL: KHẢO SÁT KHẨU VỊ (INTERACTIVE QUIZ) ==================== -->
+<div class="fixed inset-0 bg-primary/60 backdrop-blur-xs z-50 flex items-center justify-center p-4 hidden" id="quiz-modal">
+<div class="bg-surface rounded-3xl max-w-xl w-full border border-border-warm shadow-2xl p-6 md:p-8 space-y-6 relative max-h-[95vh] overflow-y-auto">
+<!-- Quiz Header -->
+<div class="flex justify-between items-center border-b border-border-warm pb-4">
+<div>
+<span class="text-caption font-bold text-secondary uppercase">Cá nhân hóa khẩu vị</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Tìm Chiếc Hộp VietNom Của Riêng Bạn</h3>
+</div>
+<button class="p-1.5 rounded-lg hover:bg-surface-cream text-text-muted" onclick="closeQuizModal()">
+<span class="material-symbols-outlined" data-icon="close">close</span>
+</button>
+</div>
+<!-- Quiz Step indicator -->
+<div class="flex items-center justify-between text-caption font-label-sm text-text-muted">
+<span id="quiz-step-title" class="">Bước 1 / 4: Mục đích khám phá</span>
+<span id="quiz-step-num" class="">25%</span>
+</div>
+<div class="w-full h-2 bg-surface-cream rounded-full overflow-hidden">
+<div class="h-full bg-secondary rounded-full transition-all duration-300" id="quiz-step-bar" style="width: 25%"></div>
+</div>
+<!-- QUIZ QUESTIONS CONTAINER -->
+<div class="py-2" id="quiz-content-step">
+<!-- Step 1 -->
+<div class="space-y-4" id="quiz-s1">
+<h4 class="font-headline-sm text-headline-sm text-primary">Bạn tìm kiếm chiếc hộp này cho ai?</h4>
+<div class="space-y-2.5">
+<button class="w-full p-4 rounded-xl border border-border-warm bg-surface-card hover:border-secondary hover:bg-surface-cream text-left text-body-sm flex items-center justify-between transition-all" onclick="nextQuizStep(2, 'self')">
+<span class="">🧑 Tự thưởng cho bản thân và gia đình nhâm nhi</span>
+<span class="material-symbols-outlined text-text-muted" data-icon="chevron_right">chevron_right</span>
+</button>
+<button class="w-full p-4 rounded-xl border border-border-warm bg-surface-card hover:border-secondary hover:bg-surface-cream text-left text-body-sm flex items-center justify-between transition-all" onclick="nextQuizStep(2, 'gift_friend')">
+<span class="">🎁 Tặng bạn bè, người thân phương xa</span>
+<span class="material-symbols-outlined text-text-muted" data-icon="chevron_right">chevron_right</span>
+</button>
+<button class="w-full p-4 rounded-xl border border-border-warm bg-surface-card hover:border-secondary hover:bg-surface-cream text-left text-body-sm flex items-center justify-between transition-all" onclick="nextQuizStep(2, 'gift_corp')">
+<span class="">🏢 Biếu sếp, đối tác công việc</span>
+<span class="material-symbols-outlined text-text-muted" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="space-y-4 hidden" id="quiz-s2">
+<h4 class="font-headline-sm text-headline-sm text-primary">Gu vị giác bạn yêu thích nhất trong ngày là gì?</h4>
+<div class="space-y-2.5">
+<button class="w-full p-4 rounded-xl border border-border-warm bg-surface-card hover:border-secondary hover:bg-surface-cream text-left text-body-sm flex items-center justify-between transition-all" onclick="nextQuizStep(3, 'taste_sweet')">
+<span class="">🍵 Ngọt thanh tao &amp; Trà thơm đượm (Gu Bắc Bộ)</span>
+<span class="material-symbols-outlined text-text-muted" data-icon="chevron_right">chevron_right</span>
+</button>
+<button class="w-full p-4 rounded-xl border border-border-warm bg-surface-card hover:border-secondary hover:bg-surface-cream text-left text-body-sm flex items-center justify-between transition-all" onclick="nextQuizStep(3, 'taste_spicy')">
+<span class="">🌶️ Cay nồng, đậm đà gia vị mắm ruốc (Gu Cố Đô)</span>
+<span class="material-symbols-outlined text-text-muted" data-icon="chevron_right">chevron_right</span>
+</button>
+<button class="w-full p-4 rounded-xl border border-border-warm bg-surface-card hover:border-secondary hover:bg-surface-cream text-left text-body-sm flex items-center justify-between transition-all" onclick="nextQuizStep(3, 'taste_herbal')">
+<span class="">🌿 Hạt khô bùi ngậy, nướng khói thơm the (Gu Tây Bắc)</span>
+<span class="material-symbols-outlined text-text-muted" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="space-y-4 hidden" id="quiz-s3">
+<h4 class="font-headline-sm text-headline-sm text-primary">Bạn có cần lưu ý đặc biệt về chế độ ăn không?</h4>
+<div class="space-y-2.5">
+<button class="w-full p-4 rounded-xl border border-border-warm bg-surface-card hover:border-secondary hover:bg-surface-cream text-left text-body-sm flex items-center justify-between transition-all" onclick="nextQuizStep(4, 'no_restrict')">
+<span class="">✨ Không kiêng khem, ăn được tất cả</span>
+<span class="material-symbols-outlined text-text-muted" data-icon="chevron_right">chevron_right</span>
+</button>
+<button class="w-full p-4 rounded-xl border border-border-warm bg-surface-card hover:border-secondary hover:bg-surface-cream text-left text-body-sm flex items-center justify-between transition-all" onclick="nextQuizStep(4, 'vegetarian')">
+<span class="">🥗 Ăn chay / Thuần thực vật</span>
+<span class="material-symbols-outlined text-text-muted" data-icon="chevron_right">chevron_right</span>
+</button>
+<button class="w-full p-4 rounded-xl border border-border-warm bg-surface-card hover:border-secondary hover:bg-surface-cream text-left text-body-sm flex items-center justify-between transition-all" onclick="nextQuizStep(4, 'no_nuts')">
+<span class="">🥜 Dị ứng hạt (Đậu phộng, mắc ca...)</span>
+<span class="material-symbols-outlined text-text-muted" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Step 4: Result -->
+<div class="space-y-4 hidden text-center" id="quiz-s4">
+<div class="w-16 h-16 rounded-full bg-status-success/20 text-status-success mx-auto flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl" data-icon="verified">verified</span>
+</div>
+<span class="text-caption font-bold text-secondary uppercase block">Kết quả đo lường phong vị</span>
+<h4 class="font-headline-sm text-headline-sm text-primary">Hộp Phù Hợp Nhất Với Bạn Là:</h4>
+<div class="p-5 rounded-2xl bg-surface-cream border-2 border-secondary text-left space-y-2">
+<div class="flex justify-between items-center">
+<span class="font-bold text-primary text-base">Local Box Chuẩn: "Phố Cổ Mùa Cốm"</span>
+<span class="text-secondary font-bold text-sm">299.000đ</span>
+</div>
+<p class="text-caption text-text-muted">
+              Độ tương thích: <strong>96.8%</strong>. Hộp chứa trà sen thanh lọc, bánh cốm dẻo thơm và ô mai mơ xoa dịu vị giác, hoàn toàn khớp với gu ẩm thực thanh nhã của bạn.
+            </p>
+</div>
+<div class="pt-2 flex gap-3">
+<button class="flex-1 py-3.5 rounded-xl bg-secondary hover:bg-on-secondary-container text-surface-card font-label-md font-bold shadow-md" onclick="addToCart('Local Box Hà Nội Chuẩn (Khẩu Vị Quiz)', 299000, 'Hà Nội'); closeQuizModal();">
+              Thêm hộp gợi ý vào giỏ
+            </button>
+<button class="px-4 py-3.5 rounded-xl border border-primary text-primary hover:bg-surface-cream font-label-md text-caption" onclick="closeQuizModal(); navigateTo('shop');">
+              Xem thêm hộp khác
+            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ==================== TOAST NOTIFICATION CONTAINER ==================== -->
+<div class="fixed bottom-6 right-6 bg-primary text-surface-card px-5 py-3.5 rounded-2xl shadow-2xl flex items-center gap-3 z-50 transition-all duration-300 border border-border-warm/30 translate-y-24 opacity-0" id="toast-notification">
+<span class="material-symbols-outlined text-secondary" data-icon="check_circle" id="toast-icon">check_circle</span>
+<span class="text-body-sm font-medium" id="toast-text">Xin chào bạn! Bạn đang đăng nhập là Khách Khám Phá</span>
+</div>
+<!-- FOOTER (Shared Component Execution) -->
+<footer class="bg-surface-cream text-primary border-t border-border-warm">
+<div class="w-full py-12 px-4 md:px-8 max-w-7xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-12">
+<!-- Brand identity -->
+<div class="md:col-span-4 space-y-4">
+<a href="javascript:void(0)" onclick="navigateTo('home')" class="inline-block"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBB8YRGJdwV48IwxXz481EJvWEwVAj6T-fZo7bmd1Wy90MjZHuuEXchZsx_nU8O-j2lNZTpTUSUf1SO5pe6IvaRghSv6z70rprbgQDDmzoDyO2QD-j0nqrujwaxE2dou7sxgCmNVIldKJuxBuQIhW-0XkJg71S47ZpmS9rfxHclOvvFxc423W-wiVjdMxr_tCot8Ma7bRPVvpqZqb8Tw1xMGX9EYAvLA4PNu1_mZcJnxv5tU35Fu3mxXa-kdvQCy-DXv1m38J3ML6o5bA" alt="VietNom Logo" class="w-auto object-contain mix-blend-multiply mb-3 h-16"></a>
+<p class="text-body-sm text-on-surface-variant max-w-sm">
+            Chúng tôi cam kết sử dụng 100% bao bì thủ công thân thiện môi trường và gìn giữ văn hóa làng nghề truyền thống.
+          </p>
+<div class="flex items-center gap-3 pt-2 text-primary">
+<a class="w-9 h-9 rounded-full bg-surface-cream-alt border border-border-warm flex items-center justify-center hover:text-secondary transition-colors" href="javascript:void(0)" title="Facebook">
+<span class="material-symbols-outlined text-[18px]" data-icon="share">share</span>
+</a>
+<a class="w-9 h-9 rounded-full bg-surface-cream-alt border border-border-warm flex items-center justify-center hover:text-secondary transition-colors" href="javascript:void(0)" title="Podcast">
+<span class="material-symbols-outlined text-[18px]" data-icon="podcasts">podcasts</span>
+</a>
+<a class="w-9 h-9 rounded-full bg-surface-cream-alt border border-border-warm flex items-center justify-center hover:text-secondary transition-colors" href="javascript:void(0)" title="Bản đồ">
+<span class="material-symbols-outlined text-[18px]" data-icon="map">map</span>
+</a>
+</div>
+</div>
+<!-- Links column 1 -->
+<div class="md:col-span-3 space-y-3">
+<span class="font-headline-sm text-headline-sm text-primary block">Hành Trình Di Sản</span>
+<ul class="space-y-2 text-body-sm">
+<li class=""><a class="text-on-surface-variant hover:text-secondary transition-colors duration-150" href="javascript:void(0)" onclick="navigateTo('home')">Về VietNom</a></li>
+
+<li class="">Hộ chiếu ẩm thực</li>
+<li class=""><a class="text-on-surface-variant hover:text-secondary transition-colors duration-150" href="javascript:void(0)" onclick="navigateTo('guidebook')">Guide</a>book</li>
+</ul>
+</div>
+<!-- Links column 2 -->
+<div class="md:col-span-2 space-y-3">
+<span class="font-headline-sm text-headline-sm text-primary block">CSKH</span>
+<ul class="space-y-2 text-body-sm">
+<li class=""><a class="text-on-surface-variant hover:text-secondary transition-colors duration-150" href="javascript:void(0)" onclick="showToast('Cam kết đổi trả trong 7 ngày nếu hư hại')">Chính sách đổi trả</a></li>
+<li class="">Chính sách vận chuyển</li>
+<li class=""><a class="text-on-surface-variant hover:text-secondary transition-colors duration-150" href="javascript:void(0)" onclick="showToast('Liên hệ kết nối nông hộ: artisan@vietnom.vn')">Liên hệ nghệ nhân</a></li>
+</ul>
+</div>
+<!-- Newsletter newsletter -->
+<div class="md:col-span-3 space-y-3">
+<span class="font-headline-sm text-headline-sm text-primary block">Bản Tin Mùa Vụ</span>
+<p class="text-caption text-text-muted">Nhận thông báo khi hộp vùng miền mới (Tây Bắc, Tây Nguyên) chính thức mở bán.</p>
+<div class="space-y-2">
+<input class="w-full text-caption rounded-xl border-border-warm bg-surface py-2.5 px-3 focus:ring-0" placeholder="Email của bạn..." type="email">
+<button class="w-full py-2.5 bg-primary text-surface-card rounded-xl text-caption font-bold hover:bg-primary-container transition-colors" onclick="showToast('Cảm ơn bạn đã đăng ký nhận tin mùa vụ!')">
+              Đăng ký nhận tin
+            </button>
+</div>
+</div>
+</div>
+<!-- Bottom copyright string verbatim -->
+<div class="pt-8 border-t border-border-warm/60 flex flex-col md:flex-row items-center justify-between gap-4 text-body-sm text-on-surface-variant">
+<div class="">
+          © 2026 VietNom - Hương vị bản địa &amp; Quà tặng di sản.&nbsp;</div>
+<div class="flex items-center gap-4 text-caption text-text-muted">
+
+
+
+</div>
+</div>
+</div>
+</footer>
+<!-- ==================== JAVASCRIPT APPLICATION CORE ==================== -->
+<script>
+    // State Management
+    let currentCart = [
+      { id: 1, name: 'Local Box Chuẩn: Phố Cổ Mùa Cốm', price: 299000, region: 'Hà Nội', qty: 1 },
+      { id: 2, name: 'Local Box Chuẩn: Vị Huế Cố Đô', price: 299000, region: 'Huế', qty: 1 },
+      { id: 3, name: 'Ô Mai Mơ Gừng Cổ Truyền', price: 65000, region: 'Hà Nội', qty: 1 }
+    ];
+    let discountAmount = 0;
+    let currentBookPage = 1;
+    let quizSelectedAnswers = {};
+    let currentDetailSlug = 'ha-noi';
+    let currentDetailTier = 'chuan';
+    let currentDetailPrice = 299000;
+    const conqueredRegions = new Set(['ha-noi', 'hue']);
+    const passportRegionAliases = {
+      'tay-bac': ['tây bắc'],
+      'ha-noi': ['hà nội', 'bắc bộ'],
+      'hue': ['huế', 'cố đô huế', 'miền trung'],
+      'tay-nguyen': ['tây nguyên'],
+      'mien-tay': ['miền tây', 'nam bộ']
+    };
+
+    function getPassportRegionKey(region) {
+      const normalizedRegion = String(region || '').trim().toLocaleLowerCase('vi');
+      return Object.keys(passportRegionAliases).find(key =>
+        passportRegionAliases[key].includes(normalizedRegion)
+      );
+    }
+
+    function renderPassportProgress() {
+      const exploredCount = conqueredRegions.size;
+      const progressPercent = Math.round((exploredCount / Object.keys(passportRegionAliases).length) * 100);
+      document.getElementById('passport-progress-label').textContent =
+        `${exploredCount} / 5 Vùng (${progressPercent}%)`;
+      document.getElementById('passport-progress-bar').style.width = `${progressPercent}%`;
+      document.getElementById('passport-stamp-count').textContent = String(exploredCount).padStart(2, '0');
+      document.getElementById('passport-progress-copy').textContent = exploredCount === 5
+        ? 'Bạn đã hoàn thành hành trình khám phá đủ 5 vùng!'
+        : exploredCount > 0
+          ? `Bạn đã khám phá ${exploredCount} vùng. Tiếp tục mua Local Box từ những vùng mới để hoàn thành hành trình.`
+          : 'Mua Local Box để bắt đầu hành trình khám phá ẩm thực các vùng miền.';
+    }
+
+    // SPA Router
+    function navigateTo(viewId) {
+      // Hide all views
+      document.querySelectorAll('.spa-view').forEach(view => {
+        view.classList.add('hidden');
+        view.classList.remove('block');
+      });
+
+      // Show targeted view
+      const target = document.getElementById(`view-${viewId}`);
+      if (target) {
+        target.classList.remove('hidden');
+        target.classList.add('block');
+      }
+
+      // Update secondary tab pills
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        if (btn.getAttribute('data-target') === viewId) {
+          btn.className = "tab-btn px-3 py-1 rounded-full border border-border-warm bg-surface text-primary font-bold shadow-xs";
+        } else {
+          btn.className = "tab-btn px-3 py-1 rounded-full border border-transparent text-text-muted hover:text-primary hover:border-border-warm";
+        }
+      });
+
+      // Smooth scroll to top
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Detail Box View Loader
+    function openBoxDetail(slug) {
+      navigateTo('product-detail');
+      currentDetailSlug = slug;
+      const breadcrumb = document.getElementById('detail-breadcrumb');
+      const title = document.getElementById('detail-title');
+      const heroTitle = document.getElementById('detail-hero-title');
+      const origin = document.getElementById('detail-origin');
+
+      if (slug === 'ha-noi') {
+        breadcrumb.innerText = 'Hà Nội: "Phố Cổ Mùa Cốm"';
+        title.innerText = 'Local Box: Phố Cổ Mùa Cốm';
+        heroTitle.innerText = 'Local Box Hà Nội';
+        origin.innerText = 'Xuất xứ: Làng Vàng & Phố Hàng, Hà Nội';
+      } else if (slug === 'hue') {
+        breadcrumb.innerText = 'Huế: "Cố Đô Trầm Mặc"';
+        title.innerText = 'Local Box: Vị Huế Cố Đô';
+        heroTitle.innerText = 'Local Box Cố Đô Huế';
+        origin.innerText = 'Xuất xứ: Cố Đô Huế';
+      } else if (slug === 'tay-bac') {
+        breadcrumb.innerText = 'Tây Bắc: "Box Tây Bắc"';
+        title.innerText = 'Local Box: Box Tây Bắc';
+        heroTitle.innerText = 'Local Box Tây Bắc';
+        origin.innerText = 'Xuất xứ: Vùng núi Tây Bắc';
+      }
+      currentDetailTier = 'chuan';
+      currentDetailPrice = 299000;
+      updateDetailTierSelection(document.querySelector('[data-tier="chuan"]'));
+      updateDetailBuyButton();
+    }
+
+    function updateDetailTierSelection(selectedButton) {
+      document.querySelectorAll('.detail-tier-btn').forEach(b => {
+        b.classList.remove('border-2', 'border-secondary', 'shadow-xs');
+        b.classList.add('border', 'border-border-warm');
+      });
+      if (selectedButton) {
+        selectedButton.classList.remove('border', 'border-border-warm');
+        selectedButton.classList.add('border-2', 'border-secondary', 'shadow-xs');
+      }
+    }
+
+    function updateDetailBuyButton() {
+      const tierLabels = {
+        'kham-pha': 'Cơ bản',
+        'chuan': 'Tiêu chuẩn',
+        'qua-tang': 'Nâng cấp'
+      };
+      document.getElementById('detail-buy-button').textContent =
+        `Mua ngay hộp ${tierLabels[currentDetailTier]} (${formatVND(currentDetailPrice)})`;
+    }
+
+    function selectDetailTier(tier, price, selectedButton) {
+      currentDetailTier = tier;
+      currentDetailPrice = price;
+      updateDetailTierSelection(selectedButton);
+      updateDetailBuyButton();
+      const tierLabels = {
+        'kham-pha': 'Cơ bản',
+        'chuan': 'Tiêu chuẩn',
+        'qua-tang': 'Nâng cấp'
+      };
+      showToast(`Đã chọn hạng hộp ${tierLabels[tier]}: ${formatVND(price)}`);
+    }
+
+    function buySelectedDetailBox() {
+      const productNames = {
+        'ha-noi': ['Local Box Hà Nội', 'Hà Nội'],
+        'hue': ['Local Box Huế', 'Huế'],
+        'tay-bac': ['Local Box Tây Bắc', 'Tây Bắc']
+      };
+      const [productName, region] = productNames[currentDetailSlug] || productNames['ha-noi'];
+      const tierLabels = {
+        'kham-pha': 'Cơ bản',
+        'chuan': 'Tiêu chuẩn',
+        'qua-tang': 'Nâng cấp'
+      };
+      addToCart(`${productName} ${tierLabels[currentDetailTier]}`, currentDetailPrice, region);
+    }
+
+    // Cart Drawer Toggle & Management
+    function toggleCartDrawer(isOpen) {
+      const drawer = document.getElementById('cart-drawer');
+      const overlay = document.getElementById('cart-drawer-overlay');
+      if (isOpen) {
+        overlay.classList.remove('hidden');
+        drawer.classList.remove('translate-x-full');
+        renderCartUI();
+      } else {
+        drawer.classList.add('translate-x-full');
+        overlay.classList.add('hidden');
+      }
+    }
+
+    function addToCart(name, price, region) {
+      const existing = currentCart.find(item => item.name === name);
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        currentCart.push({
+          id: Date.now(),
+          name: name,
+          price: price,
+          region: region,
+          qty: 1
+        });
+      }
+      renderCartUI();
+      showToast(`Đã thêm "${name}" vào giỏ hàng`);
+    }
+
+    function updateCartQty(id, delta) {
+      const item = currentCart.find(i => i.id === id);
+      if (!item) return;
+      item.qty += delta;
+      if (item.qty <= 0) {
+        currentCart = currentCart.filter(i => i.id !== id);
+      }
+      renderCartUI();
+    }
+
+    function renderCartUI() {
+      const container = document.getElementById('cart-items-list');
+      const badge = document.getElementById('cart-badge');
+      const countEl = document.getElementById('cart-item-count');
+      const subtotalEl = document.getElementById('cart-subtotal');
+      const totalEl = document.getElementById('cart-total');
+
+      const totalItems = currentCart.reduce((sum, item) => sum + item.qty, 0);
+      badge.innerText = totalItems;
+      countEl.innerText = `${totalItems} món`;
+
+      if (currentCart.length === 0) {
+        container.innerHTML = `
+          <div class="text-center py-16 space-y-3">
+            <span class="material-symbols-outlined text-6xl text-text-muted/40" data-icon="remove_shopping_cart">remove_shopping_cart</span>
+            <p class="text-body-sm text-text-muted">Giỏ hàng của bạn đang trống.</p>
+            <button onclick="toggleCartDrawer(false); navigateTo('shop')" class="px-5 py-2.5 rounded-xl bg-primary text-surface-card text-caption font-bold">
+              Khám phá hộp đặc sản ngay
+            </button>
+          </div>
+        `;
+        subtotalEl.innerText = '0đ';
+        totalEl.innerText = '0đ';
+        return;
+      }
+
+      let subtotal = 0;
+      container.innerHTML = currentCart.map(item => {
+        const itemTotal = item.price * item.qty;
+        subtotal += itemTotal;
+        return `
+          <div class="flex items-center justify-between p-3.5 rounded-2xl bg-surface-cream border border-border-warm gap-3">
+            <div class="flex-grow">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-surface-card text-primary border border-border-warm">${item.region}</span>
+              <h4 class="font-label-md text-label-md text-primary font-semibold mt-1 leading-snug">${item.name}</h4>
+              <div class="text-caption text-secondary font-bold mt-0.5">${formatVND(item.price)}</div>
+            </div>
+            <div class="flex items-center gap-2 shrink-0">
+              <div class="flex items-center border border-border-warm rounded-xl bg-surface-card">
+                <button onclick="updateCartQty(${item.id}, -1)" class="px-2.5 py-1 text-primary hover:text-secondary font-bold text-sm">-</button>
+                <span class="px-2 text-caption font-bold text-primary">${item.qty}</span>
+                <button onclick="updateCartQty(${item.id}, 1)" class="px-2.5 py-1 text-primary hover:text-secondary font-bold text-sm">+</button>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      subtotalEl.innerText = formatVND(subtotal);
+      const finalTotal = Math.max(0, subtotal - discountAmount);
+      totalEl.innerText = formatVND(finalTotal);
+    }
+
+    function applyCoupon() {
+      const code = document.getElementById('coupon-code').value.trim().toUpperCase();
+      if (code === 'VIETNOM50' || code === 'VIETNOM-LOYAL-50K') {
+        discountAmount = 50000;
+        document.getElementById('discount-row').style.display = 'flex';
+        renderCartUI();
+        showToast('Áp dụng mã giảm giá 50.000đ thành công!');
+      } else {
+        showToast('Mã khuyến mãi không hợp lệ hoặc đã hết hạn.');
+      }
+    }
+
+    function openCheckoutModal() {
+      if (currentCart.length === 0) {
+        showToast('Giỏ hàng trống! Hãy chọn ít nhất 1 sản phẩm.');
+        return;
+      }
+      toggleCartDrawer(false);
+      const totalText = document.getElementById('cart-total').innerText;
+      document.getElementById('qr-modal-amount').innerText = totalText;
+      document.getElementById('checkout-modal').classList.remove('hidden');
+    }
+
+    function closeCheckoutModal() {
+      document.getElementById('checkout-modal').classList.add('hidden');
+    }
+
+    function completeOrderSuccess() {
+      closeCheckoutModal();
+      currentCart.forEach(item => {
+        const regionKey = getPassportRegionKey(item.region);
+        if (regionKey) conqueredRegions.add(regionKey);
+      });
+      renderPassportProgress();
+      currentCart = [];
+      discountAmount = 0;
+      renderCartUI();
+      alert('🎉 ĐẶT HÀNG THÀNH CÔNG!\n\nMã vận đơn: VN-' + Math.floor(100000 + Math.random() * 900000) + '\nCảm ơn bạn đã đồng hành cùng nghệ nhân ẩm thực VietNom. Chúng tôi sẽ chuẩn bị hộp quà tươi mới nhất để gửi tới bạn!');
+      navigateTo('passport');
+    }
+
+    // Filter Logic in Shop
+    function applyFilters() {
+      const region = document.getElementById('filter-region').value;
+      const tier = document.getElementById('filter-tier').value;
+      const diet = document.getElementById('filter-diet').value;
+
+      document.querySelectorAll('#shop-items-container .shop-card').forEach(card => {
+        const cRegion = card.getAttribute('data-region');
+        const cTier = card.getAttribute('data-tier');
+        const cDiet = card.getAttribute('data-diet');
+
+        let show = true;
+        if (region !== 'all' && cRegion !== region) show = false;
+        if (tier !== 'all' && cTier !== tier) show = false;
+        if (diet !== 'all' && cDiet !== diet && cDiet !== 'all') show = false;
+
+        card.style.display = show ? 'block' : 'none';
+      });
+      showToast('Đã cập nhật bộ lọc sản phẩm');
+    }
+
+    // Gift Customizer
+    function selectGiftOccasion(btn, occasion) {
+      document.querySelectorAll('.gift-occ-btn').forEach(b => {
+        b.className = 'gift-occ-btn p-3 rounded-xl border border-border-warm bg-surface text-center text-caption text-text-muted hover:border-secondary';
+      });
+      btn.className = 'gift-occ-btn p-3 rounded-xl border-2 border-secondary bg-surface-cream text-center text-caption font-bold text-secondary';
+      document.getElementById('preview-occasion').innerText = `Dịp: ${occasion}`;
+    }
+
+    function updateGiftPreview() {
+      const receiver = document.getElementById('gift-receiver-name').value || 'Chị Lan Anh';
+      const sender = document.getElementById('gift-sender-name').value || 'Tuấn Minh';
+      const msg = document.getElementById('gift-message').value || 'Chúc chị tuổi mới luôn an yên, nhiều niềm vui và luôn giữ mãi ngọn lửa nhiệt huyết...';
+
+      document.getElementById('preview-receiver').innerText = receiver;
+      document.getElementById('preview-sender').innerText = sender;
+      document.getElementById('preview-msg-text').innerText = `"${msg}"`;
+    }
+
+    function submitGiftOrder() {
+      const receiver = document.getElementById('gift-receiver-name').value || 'Người nhận';
+      const boxType = document.getElementById('gift-box-type').value;
+      addToCart(`Quà tặng gửi ${receiver} (${boxType})`, 449000, 'Tùy biến');
+      toggleCartDrawer(true);
+    }
+
+    // Virtual Guidebook Book Flip
+    function nextBookPage() {
+      if (currentBookPage < 4) {
+        document.getElementById(`book-page-${currentBookPage}`).classList.add('hidden');
+        currentBookPage++;
+        document.getElementById(`book-page-${currentBookPage}`).classList.remove('hidden');
+        updateBookPageUI();
+      }
+    }
+
+    function prevBookPage() {
+      if (currentBookPage > 1) {
+        document.getElementById(`book-page-${currentBookPage}`).classList.add('hidden');
+        currentBookPage--;
+        document.getElementById(`book-page-${currentBookPage}`).classList.remove('hidden');
+        updateBookPageUI();
+      }
+    }
+
+    function updateBookPageUI() {
+      document.getElementById('book-page-indicator').innerText = `Trang ${currentBookPage} / 4`;
+      document.getElementById('btn-prev-page').disabled = currentBookPage === 1;
+      document.getElementById('btn-next-page').disabled = currentBookPage === 4;
+    }
+
+    function toggleAudioDemo(btn) {
+      const icon = btn.querySelector('.material-symbols-outlined');
+      if (icon.innerText === 'pause') {
+        icon.innerText = 'play_arrow';
+        showToast('Đã tạm dừng âm thanh podcast');
+      } else {
+        icon.innerText = 'pause';
+        showToast('Đang phát podcast: Sương sớm Hồ Tây');
+      }
+    }
+
+    // Interactive Quiz Modal
+    function openQuizModal() {
+      document.getElementById('quiz-modal').classList.remove('hidden');
+      resetQuiz();
+    }
+
+    function closeQuizModal() {
+      document.getElementById('quiz-modal').classList.add('hidden');
+    }
+
+    function resetQuiz() {
+      for (let i = 1; i <= 4; i++) {
+        const el = document.getElementById(`quiz-s${i}`);
+        if (el) el.classList.add('hidden');
+      }
+      document.getElementById('quiz-s1').classList.remove('hidden');
+      document.getElementById('quiz-step-title').innerText = 'Bước 1 / 4: Mục đích khám phá';
+      document.getElementById('quiz-step-num').innerText = '25%';
+      document.getElementById('quiz-step-bar').style.width = '25%';
+    }
+
+    function nextQuizStep(nextStep, value) {
+      quizSelectedAnswers[`step${nextStep - 1}`] = value;
+      for (let i = 1; i <= 4; i++) {
+        document.getElementById(`quiz-s${i}`).classList.add('hidden');
+      }
+      document.getElementById(`quiz-s${nextStep}`).classList.remove('hidden');
+
+      const percent = (nextStep / 4) * 100;
+      document.getElementById('quiz-step-bar').style.width = `${percent}%`;
+      document.getElementById('quiz-step-num').innerText = `${percent}%`;
+
+      if (nextStep === 2) document.getElementById('quiz-step-title').innerText = 'Bước 2 / 4: Gu vị giác';
+      if (nextStep === 3) document.getElementById('quiz-step-title').innerText = 'Bước 3 / 4: Chế độ ăn uống';
+      if (nextStep === 4) document.getElementById('quiz-step-title').innerText = 'Hoàn tất: Đã tìm thấy chiếc hộp phù hợp';
+    }
+
+    // Accordion Helper
+    function toggleFaq(index) {
+      const content = document.getElementById(`faq-content-${index}`);
+      const icon = document.getElementById(`faq-icon-${index}`);
+      const isHidden = content.classList.contains('hidden');
+      
+      document.querySelectorAll('[id^="faq-content-"]').forEach(c => c.classList.add('hidden'));
+      document.querySelectorAll('[id^="faq-icon-"]').forEach(i => i.style.transform = 'rotate(0deg)');
+
+      if (isHidden) {
+        content.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+      }
+    }
+
+    // Toast Notification Utility
+    let toastTimeout;
+    function showToast(message) {
+      const toast = document.getElementById('toast-notification');
+      document.getElementById('toast-text').innerText = message;
+      toast.classList.remove('translate-y-24', 'opacity-0');
+      clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        toast.classList.add('translate-y-24', 'opacity-0');
+      }, 3000);
+    }
+
+    function toggleMobileNav() {
+      const panel = document.getElementById('mobile-nav-panel');
+      panel.classList.toggle('hidden');
+    }
+
+    function toggleLocalBoxCards() {
+      const toggle = document.getElementById('local-box-toggle');
+      const cards = document.querySelectorAll('#local-box-grid [data-local-box-extra]');
+      const expanded = toggle.getAttribute('aria-expanded') !== 'true';
+
+      cards.forEach(card => {
+        card.hidden = !expanded;
+      });
+      toggle.setAttribute('aria-expanded', String(expanded));
+      toggle.textContent = expanded ? 'Thu gọn sản phẩm' : 'Xem thêm sản phẩm';
+    }
+
+    function renderHomeShopProducts() {
+      const homeGrid = document.getElementById('local-box-grid');
+      const toggle = document.getElementById('local-box-toggle');
+      const shopCards = document.querySelectorAll('#shop-items-container .shop-card');
+
+      homeGrid.replaceChildren();
+      shopCards.forEach((shopCard, index) => {
+        const card = shopCard.cloneNode(true);
+        if (index >= 3) {
+          card.dataset.localBoxExtra = '';
+          card.hidden = true;
+        }
+        homeGrid.appendChild(card);
+      });
+
+      toggle.hidden = shopCards.length <= 3;
+    }
+
+    function formatVND(number) {
+      return new Intl.NumberFormat('vi-VN').format(number) + 'đ';
+    }
+
+    // Initialize cart state
+    document.addEventListener('DOMContentLoaded', () => {
+      renderHomeShopProducts();
+      renderCartUI();
+      renderPassportProgress();
+    });
+
+    const heroContent = document.querySelector('#view-home .relative.max-w-4xl');
+    if (heroContent) {
+      const heroButton = document.createElement('button');
+      heroButton.type = 'button';
+      heroButton.className = 'hero-start-button';
+      heroButton.innerHTML = 'Bắt đầu hành trình của bạn <span aria-hidden="true">→</span>';
+      heroButton.addEventListener('click', () => navigateTo('shop'));
+      heroContent.appendChild(heroButton);
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+
+</body></html>
