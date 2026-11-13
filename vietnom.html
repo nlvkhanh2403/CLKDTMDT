@@ -5,7 +5,7 @@
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com" rel="preconnect">
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Momo+Trust+Display&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Momo+Signature&amp;family=Momo+Trust+Display&amp;family=Momo+Trust+Sans:wght@200..800&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
 <!-- Tailwind CSS -->
@@ -24,7 +24,7 @@
             "on-secondary-fixed-variant": "#75452d",
             "accent-moss": "#68745c",
             "background": "#faf8f4",
-            "status-success": "#2D6A4F",
+            "status-success": "#855f1c",
             "inverse-primary": "#e4b18e",
             "inverse-surface": "#352f29",
             "error-container": "#ffdad6",
@@ -93,37 +93,95 @@
           },
           "fontFamily": {
             "display-hero": ["Momo Trust Display", "sans-serif"],
-            "label-sm": ["Be Vietnam Pro", "sans-serif"],
+            "label-sm": ["Momo Trust Sans", "sans-serif"],
             "headline-lg-mobile": ["Momo Trust Display", "sans-serif"],
-            "body-lg": ["Be Vietnam Pro", "sans-serif"],
-            "caption": ["Be Vietnam Pro", "sans-serif"],
+            "body-lg": ["Momo Trust Sans", "sans-serif"],
+            "caption": ["Momo Trust Sans", "sans-serif"],
             "headline-lg": ["Momo Trust Display", "sans-serif"],
-            "label-md": ["Be Vietnam Pro", "sans-serif"],
+            "label-md": ["Momo Trust Sans", "sans-serif"],
             "title-editorial": ["Momo Trust Display", "sans-serif"],
             "headline-md": ["Momo Trust Display", "sans-serif"],
-            "body-sm": ["Be Vietnam Pro", "sans-serif"],
+            "body-sm": ["Momo Trust Sans", "sans-serif"],
             "headline-sm": ["Momo Trust Display", "sans-serif"],
-            "body-md": ["Be Vietnam Pro", "sans-serif"],
+            "body-md": ["Momo Trust Sans", "sans-serif"],
             "display-hero-mobile": ["Momo Trust Display", "sans-serif"]
           },
           "fontSize": {
-            "display-hero": ["60px", { "lineHeight": "68px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "display-hero": ["60px", { "lineHeight": "68px", "letterSpacing": "-0.02em", "fontWeight": "400" }],
             "label-sm": ["13px", { "lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "600" }],
-            "headline-lg-mobile": ["31px", { "lineHeight": "40px", "fontWeight": "600" }],
+            "headline-lg-mobile": ["31px", { "lineHeight": "40px", "fontWeight": "400" }],
             "body-lg": ["20px", { "lineHeight": "31px", "fontWeight": "400" }],
             "caption": ["13px", { "lineHeight": "18px", "fontWeight": "400" }],
-            "headline-lg": ["44px", { "lineHeight": "52px", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+            "headline-lg": ["44px", { "lineHeight": "52px", "letterSpacing": "-0.015em", "fontWeight": "400" }],
             "label-md": ["16px", { "lineHeight": "22px", "letterSpacing": "0.02em", "fontWeight": "600" }],
             "title-editorial": ["20px", { "lineHeight": "29px", "letterSpacing": "0.01em", "fontWeight": "600" }],
-            "headline-md": ["31px", { "lineHeight": "40px", "fontWeight": "600" }],
+            "headline-md": ["31px", { "lineHeight": "40px", "fontWeight": "400" }],
             "body-sm": ["16px", { "lineHeight": "22px", "fontWeight": "400" }],
-            "headline-sm": ["24px", { "lineHeight": "33px", "fontWeight": "600" }],
+            "headline-sm": ["24px", { "lineHeight": "33px", "fontWeight": "400" }],
             "body-md": ["18px", { "lineHeight": "27px", "fontWeight": "400" }],
-            "display-hero-mobile": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "700" }]
+            "display-hero-mobile": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "400" }]
           }
         }
       }
     }
+    Object.assign(tailwind.config.theme.extend.colors, {
+      "inverse-on-surface": "#fffaf0",
+      "on-tertiary": "#ffffff",
+      "on-surface-variant": "#685547",
+      "on-background": "#49382b",
+      "on-secondary-fixed-variant": "#7d421e",
+      "accent-moss": "#d99a00",
+      "background": "#ffffff",
+      "status-success": "#855f1c",
+      "inverse-primary": "#f0c398",
+      "inverse-surface": "#49382b",
+      "error-container": "#ffdad6",
+      "surface-dim": "#f0e5d4",
+      "surface-container": "#fff9ed",
+      "status-error": "#B91C1C",
+      "border-warm": "#f0d8b7",
+      "status-warning": "#D97706",
+      "on-tertiary-fixed-variant": "#6d531e",
+      "on-secondary": "#ffffff",
+      "tertiary": "#c58b00",
+      "primary-fixed-dim": "#f0b879",
+      "text-muted": "#806b57",
+      "surface-card": "#ffffff",
+      "tertiary-fixed-dim": "#f0c84b",
+      "tertiary-container": "#8a5c00",
+      "surface-cream-alt": "#fff5e3",
+      "on-primary-fixed": "#321d10",
+      "on-primary": "#ffffff",
+      "primary": "#a84812",
+      "primary-fixed": "#ffe0bf",
+      "surface-container-highest": "#f8eddc",
+      "surface-container-low": "#fffdfa",
+      "on-tertiary-container": "#704800",
+      "surface": "#ffffff",
+      "secondary-fixed-dim": "#ffad69",
+      "tertiary-fixed": "#ffedb0",
+      "outline-variant": "#dfc8a9",
+      "surface-cream": "#ffffff",
+      "surface-bright": "#ffffff",
+      "on-primary-container": "#fff3e5",
+      "on-secondary-container": "#9c3d0c",
+      "secondary": "#f07818",
+      "surface-container-high": "#fff6e8",
+      "on-error": "#ffffff",
+      "surface-container-lowest": "#ffffff",
+      "surface-tint": "#c95615",
+      "secondary-container": "#ffe0c2",
+      "error": "#ba1a1a",
+      "surface-variant": "#f8eddc",
+      "on-secondary-fixed": "#40271b",
+      "on-error-container": "#93000a",
+      "outline": "#907862",
+      "on-primary-fixed-variant": "#79340b",
+      "primary-container": "#c95615",
+      "on-tertiary-fixed": "#332719",
+      "secondary-fixed": "#ffead6",
+      "on-surface": "#49382b"
+    });
   </script>
 <style>
     [hidden] {
@@ -134,39 +192,44 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
     body, body *:not(.material-symbols-outlined) {
-      font-family: "Be Vietnam Pro", sans-serif !important;
+      font-family: "Momo Trust Sans", sans-serif !important;
     }
-    .font-display-hero,
-    .font-headline-lg-mobile,
-    .font-headline-lg,
-    .font-title-editorial,
-    .font-headline-md,
-    .font-headline-sm,
-    .font-display-hero-mobile {
+    body .font-display-hero,
+    body .font-headline-lg-mobile,
+    body .font-headline-lg,
+    body .font-headline-md,
+    body .font-headline-sm,
+    body .font-display-hero-mobile {
       font-family: "Momo Trust Display", sans-serif !important;
+      font-weight: 400 !important;
+    }
+    #view-home .font-title-editorial {
+      font-family: "Momo Signature", cursive !important;
+      font-weight: 400;
+      font-style: normal;
     }
     body {
-      background-color: #faf8f4;
-      color: #352f29;
+      background-color: #ffffff;
+      color: #49382b;
     }
     header {
-      background-color: rgba(252, 250, 247, 0.94);
-      border-color: #e8ded3;
+      background-color: rgba(255, 255, 255, 0.96);
+      border-color: #f0d8b7;
       backdrop-filter: blur(14px);
     }
     button {
       transition: color 180ms ease, background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
     }
     button:focus-visible, a:focus-visible {
-      outline: 3px solid #c98b62;
+      outline: 3px solid #f07818;
       outline-offset: 3px;
     }
     .bg-surface-card {
-      border-color: #e8ded3;
-      box-shadow: 0 8px 24px rgba(112, 62, 31, 0.06);
+      border-color: #f0d8b7;
+      box-shadow: 0 8px 24px rgba(145, 75, 37, 0.07);
     }
     .bg-surface-card:hover {
-      box-shadow: 0 14px 34px rgba(112, 62, 31, 0.12);
+      box-shadow: 0 14px 34px rgba(145, 75, 37, 0.14);
     }
     .spa-view#view-home > .relative.overflow-hidden.mb-8 > .relative {
       min-height: 400px !important;
@@ -181,19 +244,19 @@
       gap: 8px;
       margin-top: 20px;
       padding: 11px 22px;
-      border: 1px solid #9c502d;
+      border: 1px solid #f07818;
       border-radius: 9999px;
-      background: #9c502d;
+      background: #f07818;
       color: #fff;
       font-size: 15px;
       font-weight: 600;
       text-decoration: none;
-      box-shadow: 0 6px 18px rgba(69, 51, 38, .16);
+      box-shadow: 0 6px 18px rgba(201, 86, 21, .22);
       transition: background-color 180ms ease, transform 180ms ease;
     }
     .hero-start-button:hover {
       transform: translateY(-2px);
-      background: #78452f;
+      background: #d9570d;
     }
     #faq-section h2 {
       font-size: 32px;
@@ -208,18 +271,18 @@
       line-height: 1.7;
     }
     .bg-\[\#1F4D3A\], .bg-\[\#023625\] {
-      background-color: #70594a !important;
+      background-color: #f07818 !important;
     }
     .hover\:bg-\[\#023625\]:hover {
-      background-color: #b96e45 !important;
+      background-color: #d9570d !important;
     }
     .text-\[\#1F4D3A\], .border-\[\#1F4D3A\] {
-      color: #554438 !important;
-      border-color: #c9b8a8 !important;
+      color: #a84812 !important;
+      border-color: #e7bd8e !important;
     }
     ::selection {
-      background: #ead3c3;
-      color: #352f29;
+      background: #f9dfc5;
+      color: #49382b;
     }
     .material-symbols-outlined {
       font-family: "Material Symbols Outlined" !important;
@@ -237,10 +300,18 @@
       border-radius: 9999px;
     }
     .viet-pattern {
-      background-image: radial-gradient(#b96e45 0.75px, transparent 0.75px), radial-gradient(#b7a99a 0.75px, #faf8f4 0.75px);
+      background-image: radial-gradient(#d9783f 0.75px, transparent 0.75px), radial-gradient(#e7bd8e 0.75px, #fff9ef 0.75px);
       background-size: 30px 30px;
       background-position: 0 0, 15px 15px;
       opacity: 0.12;
+    }
+    .spa-view#view-home > .relative.overflow-hidden.mb-8 > .relative::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background: linear-gradient(135deg, rgba(255, 239, 205, 0.48), rgba(255, 219, 177, 0.32));
     }
     @media (prefers-reduced-motion: reduce) {
       *, *::before, *::after {
@@ -297,9 +368,9 @@
 <!-- Trailing Action Cluster -->
 <div class="flex items-center gap-3">
 <!-- Interactive Taste Quiz CTA -->
-<button class="hidden sm:flex items-center gap-2 bg-secondary hover:bg-on-secondary-container text-surface-card px-4 py-2.5 rounded-xl text-label-md font-label-md transition-all duration-200 active:scale-95 shadow-sm" onclick="openQuizModal()">
+<button class="hidden sm:flex items-center gap-2 bg-secondary hover:bg-on-secondary-container text-surface-card px-4 py-2.5 rounded-full text-label-md font-label-md transition-all duration-200 active:scale-95 shadow-sm" onclick="openQuizModal()">
 <span class="material-symbols-outlined text-[18px]" data-icon="temp_preferences_custom">temp_preferences_custom</span>
-<span class="">Khảo sát</span>
+<span class="">Khám phá hương vị</span>
 </button>
 <!-- Cart Button with Counter Badge -->
 <button aria-label="Giỏ hàng" class="relative p-2.5 rounded-xl hover:bg-surface-cream-alt text-primary transition-all duration-150 active:scale-95" onclick="toggleCartDrawer(true)">
@@ -350,10 +421,6 @@
 </div>
 </div>
 </header>
-<!-- QUICK ACCESS SECONDARY SUB-NAVIGATION BAR (Sticky Context Tab Bar) -->
-<div class="bg-surface-cream-alt/80 backdrop-blur-sm border-b border-border-warm sticky top-[111px] z-30 hidden sm:block">
-
-</div>
 <!-- MAIN VIEW CONTAINER (SPA SECTIONS) -->
 <main class="flex-grow">
 <!-- ==================== VIEW 1: TRANG CHỦ (HOME) ==================== -->
@@ -362,12 +429,12 @@
 <div class="relative overflow-hidden border-b border-border-warm mb-8"><div class="relative w-full min-h-[520px] flex items-center justify-center overflow-hidden"><img src="image/banner.png" alt="VietNom Hero Banner Background" class="absolute inset-0 w-full h-full object-cover object-center z-0"><div class="relative max-w-4xl mx-auto px-4 py-16 text-center z-10"><div class="flex justify-center mb-5"><div class="relative inline-block"><img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMK_K3XZfqFbN4kdk_i66vYaIqSJxVq2ByTybZLRSV9S1aSzbRz9FC0nVFSVqYELYZhj2ucDcEETTjYaHxcBAhaMGawAOy2EdL8w67boJzRTyqs7EcqzvxOj3TFvW58ozP0tf1Ck0wAu0p5AvPMvsgtv1ZUglD4BERX9RsPGCkq4Mu2aDslNm52ZdPDWY4ePectSDxO_amumfyWgmKBwe9sIDv8m_6I7OYe8fhx_kJ9fS7INTyag2h" alt="VietNom Logo" class="w-[280px] md:w-[320px] max-w-full h-auto object-contain mx-auto transition-transform hover:scale-105 duration-300 drop-shadow-sm"></div></div><div class="space-y-3"><div class="flex items-center justify-center gap-3 my-2"><div class="w-16 h-px bg-[#1F4D3A]/40"></div><h2 class="font-display-hero text-2xl md:text-3xl lg:text-4xl text-[#1F4D3A] font-bold tracking-tight">Gói từng món ăn Việt vào mỗi chiếc hộp</h2><div class="w-16 h-px bg-[#1F4D3A]/40"></div></div><p class="font-title-editorial italic text-base md:text-lg text-[#1F4D3A]/90">Mỗi chiếc hộp là một vùng đất — Mỗi sản phẩm là một câu chuyện.</p></div></div></div><div class="fixed bottom-6 right-6 z-40"><button onclick="showToast('Trợ lý VietNom luôn sẵn sàng đồng hành cùng bạn!')" class="bg-[#1F4D3A] hover:bg-secondary text-white font-label-md text-sm py-3 px-5 rounded-full shadow-xl flex items-center gap-2 border border-border-warm transition-transform hover:scale-105 active:scale-95"><span class="material-symbols-outlined text-lg" data-icon="chat">chat</span><span class="">Hỏi VietNom</span></button></div></div>
 <!-- 5 THẺ VÙNG MIỀN ĐẶC TRƯNG -->
 <div class="max-w-7xl mx-auto px-4 md:px-8 py-16">
-<div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+<div class="flex flex-col items-center text-center mb-10">
 <div>
 <span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider block mb-1">Local Box VietNom</span>
-<h2 class="text-headline-lg font-headline-lg text-primary">Bạn đã sẵn sàng chuyến đi của mình chưa?</h2>
+<h2 class="text-2xl md:text-3xl font-headline-sm text-primary">Bạn đã sẵn sàng chuyến đi của mình chưa?</h2>
 </div>
-<p class="text-text-muted text-body-sm max-w-md mt-2 md:mt-0">
+<p class="text-text-muted text-body-sm max-w-2xl mt-3">
             Chọn một chiếc hộp và bắt đầu hành trình khám phá hương vị đặc trưng từ khắp các vùng miền Việt Nam.
           </p>
 </div>
@@ -429,18 +496,15 @@
 <div class="max-w-7xl mx-auto px-4 md:px-8">
 <div class="text-center max-w-2xl mx-auto mb-14">
 <span class="text-secondary font-label-sm text-label-sm uppercase tracking-wider block mb-1">SẢN PHẨM ĐA DẠNG</span>
-<h2 class="text-headline-lg font-headline-lg text-primary">Một Chiếc Hộp Cho Mọi Nhu Cầu</h2>
+<h2 class="text-2xl md:text-3xl font-headline-sm text-primary">Một Chiếc Hộp Cho Mọi Nhu Cầu</h2>
 <p class="text-text-muted mt-3">Chọn cấp độ trải nghiệm thích hợp cho bạn tự thưởng thức hoặc gửi gắm tấm lòng cho người trân quý.</p>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch auto-rows-fr">
 <!-- Hạng Cơ Bản -->
-<div class="bg-surface-cream rounded-3xl p-7 border border-border-warm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="h-full bg-surface-cream rounded-3xl p-7 border border-border-warm flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
 <div>
-<div class="flex justify-between items-center mb-4">
-<span class="px-3 py-1 rounded-full text-caption font-bold bg-surface-card text-primary border border-border-warm">Cơ Bản</span>
-<span class="text-caption text-text-muted">Cá nhân</span>
-</div>
-<div class="w-full h-40 rounded-2xl overflow-hidden mb-3 border border-border-warm shadow-xs"><img src="image/hue_coban.jpg" alt="Hộp Khám Phá" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"></div><h3 class="font-headline-sm text-headline-sm text-primary">Hộp trải nghiệm</h3>
+<div class="h-6 flex justify-end mb-2" aria-hidden="true"></div>
+<div class="w-full h-56 rounded-2xl overflow-hidden mb-3 border border-border-warm shadow-xs"><img src="image/hue_coban.jpg" alt="Hộp Khám Phá" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"></div><h3 class="font-headline-sm text-headline-sm text-primary">Hộp trải nghiệm</h3>
 <p class="text-caption text-text-muted mt-1">Phù hợp ăn vặt văn phòng &amp; trải nghiệm lần đầu.</p>
 <div class="my-6">
 <span class="text-3xl font-headline-lg font-bold text-primary">179.000</span>
@@ -471,16 +535,14 @@
 </div>
 </div>
 <!-- Hạng Tiêu Chuẩn (Highlight) -->
-<div class="bg-surface-card rounded-3xl p-7 border-2 border-secondary flex flex-col justify-between shadow-xl relative -translate-y-2">
-<div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-secondary text-surface-card px-4 py-1 rounded-full text-caption font-bold uppercase tracking-wider">
-                Được Chọn Nhiều Nhất
-              </div>
+<div class="h-full bg-surface-cream rounded-3xl p-7 border border-border-warm flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
 <div>
-<div class="flex justify-between items-center mb-4">
-<span class="px-3 py-1 rounded-full text-caption font-bold bg-secondary/10 text-secondary">Tiêu Chuẩn</span>
-<span class="text-caption text-secondary font-bold">Best Seller</span>
+<div class="h-6 flex items-center justify-start mb-2">
+<span class="bg-secondary text-surface-card px-3 py-1 rounded-full text-[11px] leading-none font-semibold whitespace-nowrap">
+                Phổ biến nhất
+              </span>
 </div>
-<div class="w-full h-40 rounded-2xl overflow-hidden mb-3 border border-border-warm shadow-xs"><img src="image/hue.jpg" alt="Hộp Chuẩn Standard" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"></div><h3 class="font-headline-sm text-headline-sm text-primary">Hộp tiêu chuẩn</h3>
+<div class="w-full h-56 rounded-2xl overflow-hidden mb-3 border border-border-warm shadow-xs"><img src="image/hue.jpg" alt="Hộp Chuẩn Standard" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"></div><h3 class="font-headline-sm text-headline-sm text-primary">Hộp tiêu chuẩn</h3>
 <p class="text-caption text-text-muted mt-1">Cân bằng hoàn hảo các tầng hương vị vùng miền.</p>
 <div class="my-6">
 <span class="text-3xl font-headline-lg font-bold text-secondary">299.000</span>
@@ -511,13 +573,10 @@
 </div>
 </div>
 <!-- Hạng Nâng Cấp -->
-<div class="bg-surface-cream rounded-3xl p-7 border border-border-warm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="h-full bg-surface-cream rounded-3xl p-7 border border-border-warm flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow">
 <div>
-<div class="flex justify-between items-center mb-4">
-<span class="px-3 py-1 rounded-full text-caption font-bold bg-[#E3A82B]/20 text-tertiary">Nâng Cấp</span>
-<span class="text-caption text-text-muted">Doanh nghiệp / Bạn bè</span>
-</div>
-<div class="w-full h-40 rounded-2xl overflow-hidden mb-3 border border-border-warm shadow-xs"><img src="image/hue_nangcap.jpg" alt="Hộp Quà Tặng Di Sản" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"></div><h3 class="font-headline-sm text-headline-sm text-primary">Hộp quà tặng di sản</h3>
+<div class="h-6 flex justify-end mb-2" aria-hidden="true"></div>
+<div class="w-full h-56 rounded-2xl overflow-hidden mb-3 border border-border-warm shadow-xs"><img src="image/hue_nangcap.jpg" alt="Hộp Quà Tặng Di Sản" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"></div><h3 class="font-headline-sm text-headline-sm text-primary">Hộp quà tặng di sản</h3>
 <p class="text-caption text-text-muted mt-1">Đóng gói lụa/mây tre đan, viết thiệp thư pháp.</p>
 <div class="my-6">
 <span class="text-3xl font-headline-lg font-bold text-primary">549.000</span>
@@ -722,8 +781,9 @@
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="shop-items-container">
 <!-- Box 1 -->
 <div class="shop-card bg-surface-card rounded-2xl border border-border-warm overflow-hidden hover:shadow-xl transition-all duration-200" data-diet="chay" data-price="299000" data-region="ha-noi" data-tier="chuan">
-<div class="h-52 relative overflow-hidden border-b border-border-warm group"><img src="image/taynguyen.png" alt="Local Box Tây Nguyên" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4"><div class="w-full flex justify-between items-center"><span class="text-caption text-surface-card font-medium">5 Món đặc sản</span><span class="text-caption text-surface-card font-semibold">⭐ 4.9 (340 đánh giá)</span></div></div><div class="absolute top-4 left-4 right-4 flex justify-between items-start"><span class="px-3 py-1 rounded-full text-caption font-bold bg-[#1F4D3A] text-surface-card shadow-sm">Hà Nội</span><span class="px-2.5 py-0.5 rounded text-[11px] bg-status-success/90 backdrop-blur-xs text-surface-card font-bold shadow-sm">Ăn chay</span></div></div>
+<div class="h-72 relative overflow-hidden border-b border-border-warm bg-surface-cream group"><img src="image/taynguyen.png" alt="Local Box Tây Nguyên" class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"></div>
 <div class="p-6">
+<div class="flex justify-between text-caption text-text-muted mb-3"><span>5 món đặc sản</span><span>⭐ 4.9 (340 đánh giá)</span></div>
 <h3 class="font-headline-sm text-headline-sm text-primary mb-2">Box Tây Nguyên</h3>
 <p class="text-caption text-text-muted mb-4">Gồm: Cafe hạt xay, Chuối hột rừng, Măng le, Macca Bazan, Nấm hồng.</p>
 <div class="flex flex-col items-stretch gap-4">
@@ -744,8 +804,9 @@
 </div>
 <!-- Box 2 -->
 <div class="shop-card bg-surface-card rounded-2xl border border-border-warm overflow-hidden hover:shadow-xl transition-all duration-200" data-diet="khong-hat" data-price="299000" data-region="hue" data-tier="chuan">
-<div class="h-52 relative overflow-hidden border-b border-border-warm group"><img src="image/hue.jpg" alt="Local Box Huế Chuẩn" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4"><div class="w-full flex justify-between items-center"><span class="text-caption text-surface-card font-medium">5 Món đặc sản</span><span class="text-caption text-surface-card font-semibold">⭐ 4.95 (210 đánh giá)</span></div></div><div class="absolute top-4 left-4 right-4 flex justify-between items-start"><span class="px-3 py-1 rounded-full text-caption font-bold bg-secondary text-surface-card shadow-sm">Huế Cố Đô</span><span class="px-2.5 py-0.5 rounded text-[11px] bg-secondary/90 backdrop-blur-xs text-surface-card font-bold shadow-sm">Vị đậm đà</span></div></div>
+<div class="h-72 relative overflow-hidden border-b border-border-warm bg-surface-cream group"><img src="image/hue.jpg" alt="Local Box Huế Chuẩn" class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"></div>
 <div class="p-6">
+<div class="flex justify-between text-caption text-text-muted mb-3"><span>5 món đặc sản</span><span>⭐ 4.95 (210 đánh giá)</span></div>
 <h3 class="font-headline-sm text-headline-sm text-primary mb-2">Box Huế</h3>
 <p class="text-caption text-text-muted mb-4">Gồm: Mè xửng giòn, Trà cung đình Đức Phượng, Mắm ruốc chưng tôm, Ớt bột Cố Đô, Hạt sen sấy.</p>
 <div class="flex flex-col items-stretch gap-4">
@@ -766,8 +827,9 @@
 </div>
 <!-- Box 3 -->
 <div class="shop-card bg-surface-card rounded-2xl border border-border-warm overflow-hidden hover:shadow-xl transition-all duration-200" data-diet="khong-cay" data-price="179000" data-region="ha-noi" data-tier="kham-pha">
-<div class="h-52 relative overflow-hidden border-b border-border-warm group"><img src="image/hanoi.png" alt="Local Box Hà Thành Nhẹ Tênh" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4"><div class="w-full flex justify-between items-center"><span class="text-caption text-surface-card font-medium">3 Món ăn nhẹ</span><span class="text-caption text-surface-card font-semibold">⭐ 4.8 (115 đánh giá)</span></div></div><div class="absolute top-4 left-4 right-4 flex justify-between items-start"><span class="px-3 py-1 rounded-full text-caption font-bold bg-[#1F4D3A] text-surface-card shadow-sm">Hà Nội</span><span class="px-2.5 py-0.5 rounded text-[11px] bg-status-success/90 backdrop-blur-xs text-surface-card font-bold shadow-sm">Cơ bản</span></div></div>
+<div class="h-72 relative overflow-hidden border-b border-border-warm bg-surface-cream group"><img src="image/hanoi.png" alt="Local Box Hà Thành Nhẹ Tênh" class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"></div>
 <div class="p-6">
+<div class="flex justify-between text-caption text-text-muted mb-3"><span>3 món ăn nhẹ</span><span>⭐ 4.8 (115 đánh giá)</span></div>
 <h3 class="font-headline-sm text-headline-sm text-primary mb-2">Box Hà Nội</h3>
 <p class="text-caption text-text-muted mb-4">Gồm: Bánh chả, Cốm mộc, Trà tim sen túi lọc, Bánh cốm, Mơ gừng</p>
 <div class="flex flex-col items-stretch gap-4">
@@ -788,8 +850,9 @@
 </div>
 <!-- Box 4 (Gift Tier) -->
 <div class="shop-card bg-surface-card rounded-2xl border border-border-warm overflow-hidden hover:shadow-xl transition-all duration-200" data-diet="all" data-price="449000" data-region="hue" data-tier="qua-tang">
-<div class="h-52 relative overflow-hidden border-b border-border-warm group"><img src="image/mientay.jpg" alt="Local box miền tây" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4"><div class="w-full flex justify-between items-center"><span class="text-caption text-surface-card font-medium">7 Món + Khăn Lụa</span><span class="text-caption text-surface-card font-semibold">⭐ 5.0 (98 đánh giá)</span></div></div><div class="absolute top-4 left-4 right-4 flex justify-between items-start"><span class="px-3 py-1 rounded-full text-caption font-bold bg-tertiary-container text-surface-card shadow-sm">Huế Cố Đô</span><span class="px-2.5 py-0.5 rounded text-[11px] bg-tertiary-fixed text-tertiary font-bold shadow-sm">Nâng cấp</span></div></div>
+<div class="h-72 relative overflow-hidden border-b border-border-warm bg-surface-cream group"><img src="image/mientay.jpg" alt="Local box miền tây" class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"></div>
 <div class="p-6">
+<div class="flex justify-between text-caption text-text-muted mb-3"><span>7 món + khăn lụa</span><span>⭐ 5.0 (98 đánh giá)</span></div>
 <h3 class="font-headline-sm text-headline-sm text-primary mb-2">Box Miền Tây</h3>
 <p class="text-caption text-text-muted mb-4">Gồm: Bánh phồng sữa, Kẹo dừa, Bánh phồng tôm, Kẹo chuối, Bánh phồng chuối</p>
 <div class="flex flex-col items-stretch gap-4">
@@ -810,8 +873,9 @@
 </div>
 <!-- Box 5 -->
 <div class="shop-card bg-surface-card rounded-2xl border border-border-warm overflow-hidden hover:shadow-xl transition-all duration-200" data-diet="all" data-price="329000" data-region="tay-bac" data-tier="chuan">
-<div class="h-52 relative overflow-hidden border-b border-border-warm group"><img src="image/taybac.jpg" alt="Local Box đặc sản Tây Bắc" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"><div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-4"><div class="w-full flex justify-between items-center"><span class="text-caption text-surface-card font-medium">5 Món đặc sản</span><span class="text-caption text-surface-card font-semibold">⭐ 4.9 (86 đánh giá)</span></div></div><div class="absolute top-4 left-4 right-4 flex justify-between items-start"><span class="px-3 py-1 rounded-full text-caption font-bold bg-primary text-surface-card shadow-sm">Tây Bắc</span><span class="px-2.5 py-0.5 rounded text-[11px] bg-secondary/90 backdrop-blur-xs text-surface-card font-bold shadow-sm">Đậm vị núi rừng</span></div></div>
+<div class="h-72 relative overflow-hidden border-b border-border-warm bg-surface-cream group"><img src="image/taybac.jpg" alt="Local Box đặc sản Tây Bắc" class="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"></div>
 <div class="p-6">
+<div class="flex justify-between text-caption text-text-muted mb-3"><span>5 món đặc sản</span><span>⭐ 4.9 (86 đánh giá)</span></div>
 <h3 class="font-headline-sm text-headline-sm text-primary mb-2">Box Tây Bắc</h3>
 <p class="text-caption text-text-muted mb-4">Gồm: Thịt trâu gác bếp, lạp xưởng hun khói, mắc khén, măng khô và trà Shan tuyết.</p>
 <div class="flex flex-col items-stretch gap-4">
@@ -1211,6 +1275,23 @@
 <h2 class="text-headline-lg font-headline-lg text-primary">VietNom Guidebook</h2>
 
 </div>
+<div id="guidebook-library">
+<div class="text-center mb-8">
+<h3 class="font-headline-sm text-2xl text-primary">Sản phẩm đã mua</h3>
+<p class="text-caption text-text-muted mt-2">Chọn một sản phẩm để mở cẩm nang theo vùng miền.</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="guidebook-product-list"></div>
+<div class="hidden text-center p-8 rounded-2xl bg-surface-cream border border-border-warm" id="guidebook-empty-state">
+<span class="material-symbols-outlined text-5xl text-secondary mb-3" data-icon="menu_book">menu_book</span>
+<p class="text-body-sm text-text-muted mb-4">Bạn chưa có sản phẩm đã mua. Hoàn tất đơn hàng để mở guidebook của sản phẩm nhé!</p>
+<button class="px-5 py-2.5 rounded-xl bg-secondary text-white font-semibold" onclick="navigateTo('shop')">Đến cửa hàng</button>
+</div>
+</div>
+<div class="hidden" id="guidebook-reader">
+<button class="mb-5 inline-flex items-center gap-2 text-caption text-primary hover:text-secondary font-semibold" onclick="closePurchasedGuidebook()">
+<span class="material-symbols-outlined text-[18px]" data-icon="arrow_back">arrow_back</span>
+Quay lại sản phẩm đã mua
+</button>
 <!-- Virtual Interactive Book Container -->
 <div class="bg-surface-card rounded-3xl border-2 border-border-warm shadow-2xl p-6 md:p-12 relative overflow-hidden">
 <!-- Book Spine visual -->
@@ -1220,8 +1301,8 @@
 <div class="flex items-center gap-3">
 <span class="material-symbols-outlined text-3xl text-secondary" data-icon="menu_book">menu_book</span>
 <div>
-<span class="font-headline-sm text-headline-sm text-primary block">Tập II: Thức Quà Mùa Cốm &amp; Trầm Tích Sông Hương</span>
-<span class="text-caption text-text-muted">Ấn bản phát hành Tháng 03/2025</span>
+<span class="font-headline-sm text-headline-sm text-primary block" id="guidebook-title">Guidebook</span>
+<span class="text-caption text-text-muted" id="guidebook-edition">Cẩm nang dành riêng cho sản phẩm đã mua</span>
 </div>
 </div>
 <!-- Page indicators -->
@@ -1241,29 +1322,29 @@
 <div class="book-page grid grid-cols-1 md:grid-cols-2 gap-8 items-center" id="book-page-1">
 <div class="space-y-4">
 <span class="text-caption font-bold px-2.5 py-1 rounded bg-surface-cream text-secondary">Phần mở đầu</span>
-<h3 class="font-display-hero text-headline-lg text-primary">Nếp Nhà &amp; Ký Ức</h3>
-<p class="text-body-md text-on-surface-variant leading-relaxed">
+<h3 class="font-display-hero text-headline-lg text-primary" id="guidebook-intro-title">Nếp Nhà &amp; Ký Ức</h3>
+<p class="text-body-md text-on-surface-variant leading-relaxed" id="guidebook-intro">
                   "Ẩm thực Việt Nam không nằm ở sự cầu kỳ của kỹ thuật Tây phương, mà ẩn mình trong thời gian và sự kiên nhẫn. Một nắm cốm non đợi qua hai mùa mưa, một búp trà sen ngậm sương qua trọn đêm hè..."
                 </p>
 <div class="p-4 rounded-xl bg-surface-cream border border-border-warm text-caption text-primary">
 <strong>Mục lục nhanh:</strong><br>
-                  Trang 2: Nghệ nhân ướp sen Tây Hồ &amp; Podcast âm thanh<br>
-                  Trang 3: Pairing Guide: Cách kết hợp Trà Sen cùng Ô Mai chuẩn vị<br>
+                  Trang 2: Câu chuyện nghệ nhân &amp; Podcast âm thanh<br>
+                  Trang 3: Pairing Guide: Cách kết hợp đặc sản chuẩn vị<br>
                   Trang 4: Bản đồ thu nhỏ &amp; Tích điểm Hộ chiếu
                 </div>
 </div>
 <div class="bg-surface-cream-alt rounded-2xl p-6 border border-border-warm flex flex-col items-center justify-center text-center">
 <span class="material-symbols-outlined text-7xl text-primary mb-3" data-icon="local_cafe">local_cafe</span>
 <div class="font-headline-sm text-headline-sm text-primary mb-1">Dành cho:</div>
-<p class="text-caption text-text-muted">Dành riêng cho người yêu sự chậm rãi của nghệ thuật ẩm thực truyền thống.</p>
+<p class="text-caption text-text-muted" id="guidebook-audience">Dành riêng cho người yêu sự chậm rãi của nghệ thuật ẩm thực truyền thống.</p>
 </div>
 </div>
 <!-- Page 2: Chuyện Nghệ Nhân & Podcast Audio -->
 <div class="book-page grid grid-cols-1 md:grid-cols-2 gap-8 items-center hidden" id="book-page-2">
 <div class="space-y-4">
 <span class="text-caption font-bold px-2.5 py-1 rounded bg-secondary/10 text-secondary">Chân dung nghệ nhân</span>
-<h3 class="font-headline-sm text-headline-lg text-primary">Ông Cụ Năm &amp; 50 Năm Ướp Sen</h3>
-<p class="text-body-sm text-on-surface-variant leading-relaxed">
+<h3 class="font-headline-sm text-headline-lg text-primary" id="guidebook-story-title">Chuyện người làm đặc sản</h3>
+<p class="text-body-sm text-on-surface-variant leading-relaxed" id="guidebook-story">
                   Mỗi sáng sớm&nbsp; vào lúc 4h30 khi sương còn giăng bảng lảng mặt hồ Quảng Bá, chiếc thuyền nan nhỏ của cụ Năm lại rẽ nước, bóc từng cánh hoa sen bách diệp, rải nhẹ từng lớp chè Shan tuyết rồi buộc kín bằng sợi rơm nếp dẻo dai.
                 </p>
 <!-- Audio Player Mockup -->
@@ -1271,7 +1352,7 @@
 <div class="flex items-center justify-between text-caption font-bold text-primary">
 <span class="flex items-center gap-1.5">
 <span class="material-symbols-outlined text-secondary text-[18px]" data-icon="podcasts">podcasts</span>
-                      Sương sớm Hồ Tây&nbsp;</span>
+                      <span id="guidebook-audio-title">Âm vang miền quê</span>&nbsp;</span>
 <span class="text-secondary">01:45 / 03:20</span>
 </div>
 <div class="w-full bg-border-warm h-2 rounded-full overflow-hidden">
@@ -1289,7 +1370,7 @@
 <div class="bg-surface-cream rounded-2xl p-6 border border-border-warm text-center space-y-3">
 <span class="material-symbols-outlined text-6xl text-secondary" data-icon="qr_code_scanner">qr_code_scanner</span>
 <div class="font-headline-sm text-headline-sm text-primary">Quét mã QR trên tem hộp</div>
-<p class="text-caption text-text-muted">Mỗi chiếc hộp giao tới tay bạn đều đính kèm mã QR vật lý để nghe bản thu âm chất lượng cao do chính VietNom tổng hợp.</p>
+<p class="text-caption text-text-muted" id="guidebook-qr-copy">Mỗi chiếc hộp giao tới tay bạn đều đính kèm mã QR vật lý để nghe bản thu âm chất lượng cao do chính VietNom tổng hợp.</p>
 </div>
 </div>
 <!-- Page 3: Pairing Guide (Công thức kết hợp) -->
@@ -1299,19 +1380,19 @@
 <h3 class="font-headline-sm text-headline-lg text-primary">Nghệ Thuật Kết Hợp Món</h3>
 <div class="space-y-3 text-body-sm">
 <div class="p-3.5 rounded-xl bg-surface-cream border border-border-warm">
-<strong class="text-primary block font-semibold mb-1">1. Trà Sen + Ô Mai Mơ Gừng:</strong>
-                    Vị chát dịu của trà giúp cân bằng tính cay nóng của gừng và vị chua của mơ, tạo hậu vị ngọt sâu cổ họng.
+<strong class="text-primary block font-semibold mb-1" id="guidebook-pairing-one-title">1. Trà Sen + Ô Mai Mơ Gừng:</strong>
+                    <span id="guidebook-pairing-one">Vị chát dịu của trà giúp cân bằng tính cay nóng của gừng và vị chua của mơ, tạo hậu vị ngọt sâu cổ họng.</span>
                   </div>
 <div class="p-3.5 rounded-xl bg-surface-cream border border-border-warm">
-<strong class="text-primary block font-semibold mb-1">2. Trà Cung Đình + Mè Xửng Giòn:</strong>
-                    Mạch nha béo ngậy được thanh lọc ngay tức thì nhờ vị thảo mộc của hoa cúc, cam thảo và kỷ tử.
+<strong class="text-primary block font-semibold mb-1" id="guidebook-pairing-two-title">2. Trà Cung Đình + Mè Xửng Giòn:</strong>
+                    <span id="guidebook-pairing-two">Mạch nha béo ngậy được thanh lọc ngay tức thì nhờ vị thảo mộc của hoa cúc, cam thảo và kỷ tử.</span>
                   </div>
 </div>
 </div>
 <div class="bg-surface-cream-alt rounded-2xl p-6 border border-border-warm flex flex-col items-center justify-center text-center">
 <span class="material-symbols-outlined text-7xl text-status-success mb-3" data-icon="soup_kitchen">soup_kitchen</span>
 <div class="font-headline-sm text-headline-sm text-primary mb-1">Nhiệt độ nước lý tưởng</div>
-<p class="text-caption text-text-muted">Trà sen: 85°C – 90°C (Không dùng nước sôi 100°C làm cháy hương hoa quý).</p>
+<p class="text-caption text-text-muted" id="guidebook-water-tip">Trà sen: 85°C – 90°C (Không dùng nước sôi 100°C làm cháy hương hoa quý).</p>
 </div>
 </div>
 <!-- Page 4: Bản Đồ Thu Nhỏ & Tem Tích Điểm -->
@@ -1319,7 +1400,7 @@
 <div class="space-y-4">
 <span class="text-caption font-bold px-2.5 py-1 rounded bg-status-success/20 text-status-success">Du ngoạn ẩm thực</span>
 <h3 class="font-headline-sm text-headline-lg text-primary">Hành Trình Tiếp Theo Của Bạn</h3>
-<p class="text-body-sm text-on-surface-variant leading-relaxed">
+<p class="text-body-sm text-on-surface-variant leading-relaxed" id="guidebook-next-journey">
                   Bạn đã giải mã hương vị của 2 tọa độ: Hà Nội và Huế. Hộp tiếp theo của bạn sẽ là đỉnh đèo Ô Quy Hồ với phong vị thịt trâu sấy mắc khén?
                 </p>
 <div class="pt-2">
@@ -1330,7 +1411,7 @@
 </div>
 <div class="bg-surface-cream rounded-2xl p-6 border border-border-warm text-center space-y-3">
 <span class="material-symbols-outlined text-6xl text-secondary" data-icon="loyalty">loyalty</span>
-<div class="font-headline-sm text-headline-sm text-primary">Đã tích lũy +100 Điểm</div>
+<div class="font-headline-sm text-headline-sm text-primary" id="guidebook-points-title">Quà tặng dành cho bạn</div>
 <p class="text-caption text-text-muted">Đổi ngay quà tặng thủ công hoặc giảm trực tiếp 50.000đ cho đơn hàng tiếp theo.</p>
 </div>
 </div>
@@ -1339,6 +1420,7 @@
 <div class="mt-8 pt-4 border-t border-border-warm flex items-center justify-between text-caption text-text-muted">
 
 <span class="">VietNom Guidebook © 2025</span>
+</div>
 </div>
 </div>
 </div>
@@ -1737,6 +1819,7 @@
       { id: 2, name: 'Local Box Chuẩn: Vị Huế Cố Đô', price: 299000, region: 'Huế', qty: 1 },
       { id: 3, name: 'Ô Mai Mơ Gừng Cổ Truyền', price: 65000, region: 'Hà Nội', qty: 1 }
     ];
+    let purchasedProducts = [];
     let discountAmount = 0;
     let currentBookPage = 1;
     let quizSelectedAnswers = {};
@@ -1751,12 +1834,215 @@
       'tay-nguyen': ['tây nguyên'],
       'mien-tay': ['miền tây', 'nam bộ']
     };
+    const guidebookRegions = {
+      'ha-noi': {
+        name: 'Hà Nội', category: 'Bắc Bộ', image: 'image/hanoi.png', title: 'Phố Cổ Mùa Cốm',
+        introTitle: 'Nếp Nhà & Hương Cốm',
+        intro: 'Khám phá nét thanh tao của Hà Nội qua cốm non, trà sen và những thức quà được gìn giữ qua nhiều thế hệ.',
+        audience: 'Dành cho người yêu vị thanh nhẹ và những câu chuyện phố cổ Hà Nội.',
+        storyTitle: 'Nghề làm cốm làng Vòng',
+        story: 'Từ hạt lúa nếp non đến mẻ cốm xanh, mỗi công đoạn đều cần sự tỉ mỉ và kinh nghiệm được truyền lại trong các gia đình làm nghề.',
+        audioTitle: 'Thanh âm mùa cốm Hà Nội',
+        qrCopy: 'Mở câu chuyện về những thức quà Hà Nội qua mã QR đi kèm sản phẩm.',
+        pairingOneTitle: '1. Cốm non + Trà sen:',
+        pairingOne: 'Hương sen dịu nhẹ làm nổi bật vị dẻo thơm, thanh mát của cốm non.',
+        pairingTwoTitle: '2. Ô mai mơ gừng + Trà nóng:',
+        pairingTwo: 'Vị chua ngọt và chút cay ấm của gừng cân bằng cùng chén trà thơm.',
+        waterTip: 'Trà sen: dùng nước khoảng 85–90°C để giữ hương trà dịu nhẹ.',
+        nextJourney: 'Từ Hà Nội, bạn có thể tiếp tục khám phá hương vị cung đình và những thức quà của xứ Huế.',
+        pointsTitle: 'Tiếp tục hành trình khám phá'
+      },
+      'hue': {
+        name: 'Huế', category: 'Miền Trung', image: 'image/hue.jpg', title: 'Cố Đô Trầm Mặc',
+        introTitle: 'Dấu Xưa Cố Đô',
+        intro: 'Hương vị Huế kết hợp nét tinh tế cung đình với những món quà dân dã đậm đà bên dòng sông Hương.',
+        audience: 'Dành cho người thích khám phá vị đậm đà và nét trầm mặc của cố đô.',
+        storyTitle: 'Nếp nghề bên dòng Hương',
+        story: 'Từ mè xửng đến các món mắm, người làm nghề cân chỉnh nguyên liệu và lửa thật khéo để giữ trọn vị đặc trưng của xứ Huế.',
+        audioTitle: 'Chuyện vị ngon xứ Huế',
+        qrCopy: 'Quét mã QR để khám phá câu chuyện về đặc sản và nếp sống ẩm thực của người Huế.',
+        pairingOneTitle: '1. Mè xửng + Trà cung đình:',
+        pairingOne: 'Vị ngọt bùi của mè xửng hài hòa với hương thảo mộc dịu của trà cung đình.',
+        pairingTwoTitle: '2. Hạt sen + Trà nóng:',
+        pairingTwo: 'Vị bùi thanh của hạt sen hợp cùng tách trà ấm sau bữa ăn.',
+        waterTip: 'Trà cung đình: pha theo hướng dẫn trên bao bì, tránh ngâm quá lâu để vị trà không gắt.',
+        nextJourney: 'Sau dấu ấn cố đô, hãy chọn một vùng miền khác để tiếp tục sưu tầm hương vị và câu chuyện địa phương.',
+        pointsTitle: 'Mỗi vùng miền, một dấu ấn mới'
+      },
+      'tay-bac': {
+        name: 'Tây Bắc', category: 'Miền núi phía Bắc', image: 'image/taybac.jpg', title: 'Vị Cay & Khói Ngàn',
+        introTitle: 'Hương Rừng Tây Bắc',
+        intro: 'Tìm hiểu những hương vị núi rừng đặc trưng, từ mắc khén thơm tê đến trà Shan tuyết vùng cao.',
+        audience: 'Dành cho người yêu vị đậm, hương khói và sản vật núi rừng.',
+        storyTitle: 'Bếp lửa và đặc sản vùng cao',
+        story: 'Khói bếp, gia vị bản địa và cách hong gác truyền thống tạo nên hương vị riêng cho nhiều món đặc sản Tây Bắc.',
+        audioTitle: 'Thanh âm núi rừng',
+        qrCopy: 'Quét mã QR để nghe thêm về sản vật, gia vị và phong tục ẩm thực của vùng cao.',
+        pairingOneTitle: '1. Thịt trâu gác bếp + Chẩm chéo:',
+        pairingOne: 'Vị khói đậm đà kết hợp cùng gia vị thơm cay tạo nên món nhâm nhi đặc trưng.',
+        pairingTwoTitle: '2. Trà Shan tuyết + Món nướng:',
+        pairingTwo: 'Vị trà chát dịu giúp cân bằng vị béo và hương khói của món nướng.',
+        waterTip: 'Trà Shan tuyết: dùng nước nóng khoảng 90°C và điều chỉnh thời gian hãm theo khẩu vị.',
+        nextJourney: 'Từ miền núi phía Bắc, bạn có thể tiếp tục hành trình đến cao nguyên đầy nắng gió.',
+        pointsTitle: 'Hộ chiếu đang chờ dấu chân tiếp theo'
+      },
+      'tay-nguyen': {
+        name: 'Tây Nguyên', category: 'Cao nguyên', image: 'image/taynguyen.png', title: 'Hương Vị Đại Ngàn',
+        introTitle: 'Nắng Gió Cao Nguyên',
+        intro: 'Cẩm nang đưa bạn đến với cà phê, măng rừng và những sản vật mộc mạc của vùng đất bazan.',
+        audience: 'Dành cho người yêu cà phê đậm và hương vị phóng khoáng của đại ngàn.',
+        storyTitle: 'Từ nương rẫy đến chiếc hộp',
+        story: 'Nhiều đặc sản Tây Nguyên bắt đầu từ nương rẫy và bàn tay người dân địa phương, được sơ chế để lưu giữ hương vị tự nhiên.',
+        audioTitle: 'Một ngày ở đại ngàn',
+        qrCopy: 'Quét mã QR để nghe câu chuyện về cà phê và những sản vật đặc trưng Tây Nguyên.',
+        pairingOneTitle: '1. Cà phê rang + Chuối sấy:',
+        pairingOne: 'Vị đắng thơm của cà phê cân bằng với vị ngọt tự nhiên của chuối.',
+        pairingTwoTitle: '2. Măng le + Món cơm nhà:',
+        pairingTwo: 'Măng le mang vị giòn thơm, hợp dùng trong bữa cơm cùng các món mặn.',
+        waterTip: 'Cà phê: điều chỉnh lượng nước và thời gian pha để đạt độ đậm vừa ý.',
+        nextJourney: 'Hãy chọn một hành trình mới để khám phá thêm những món ngon và câu chuyện bản địa.',
+        pointsTitle: 'Mở thêm dấu ấn trên hộ chiếu'
+      },
+      'mien-tay': {
+        name: 'Miền Tây', category: 'Nam Bộ', image: 'image/mientay.jpg', title: 'Ngọt Lành Miền Sông Nước',
+        introTitle: 'Thức Quà Miền Sông Nước',
+        intro: 'Khám phá vị ngọt lành của trái cây, bánh dân gian và những thức quà gắn với miền sông nước.',
+        audience: 'Dành cho người yêu món quà dân dã, vị ngọt thơm và nét hào sảng phương Nam.',
+        storyTitle: 'Nếp nhà bên dòng sông',
+        story: 'Từ nguyên liệu vườn nhà, người miền Tây sáng tạo nên nhiều loại bánh và kẹo thủ công mang hương vị thân quen.',
+        audioTitle: 'Chuyện quà quê phương Nam',
+        qrCopy: 'Quét mã QR để khám phá câu chuyện về món ngon và nếp sống miền Tây.',
+        pairingOneTitle: '1. Kẹo dừa + Trà nóng:',
+        pairingOne: 'Vị béo thơm của dừa kết hợp cùng chén trà nóng giúp vị ngọt thêm hài hòa.',
+        pairingTwoTitle: '2. Bánh phồng + Trái cây:',
+        pairingTwo: 'Độ giòn thơm của bánh phồng tạo điểm nhấn vui miệng khi thưởng thức cùng trái cây.',
+        waterTip: 'Trà nóng: pha theo hướng dẫn từng loại trà, dùng để cân bằng vị ngọt của bánh kẹo.',
+        nextJourney: 'Rời miền sông nước, bạn có thể tiếp tục hành trình ngược lên núi rừng hoặc trở về cố đô.',
+        pointsTitle: 'Mỗi chiếc hộp mở ra một vùng đất'
+      }
+    };
 
     function getPassportRegionKey(region) {
       const normalizedRegion = String(region || '').trim().toLocaleLowerCase('vi');
       return Object.keys(passportRegionAliases).find(key =>
         passportRegionAliases[key].includes(normalizedRegion)
       );
+    }
+
+    function getGuidebookPurchases() {
+      const purchasesByProduct = new Map();
+      purchasedProducts.forEach(item => {
+        const key = `${item.name}|${item.region}`;
+        const purchase = purchasesByProduct.get(key);
+        if (purchase) {
+          purchase.qty += item.qty;
+        } else {
+          purchasesByProduct.set(key, { ...item });
+        }
+      });
+      return [...purchasesByProduct.values()];
+    }
+
+    function renderGuidebookLibrary() {
+      const productList = document.getElementById('guidebook-product-list');
+      const emptyState = document.getElementById('guidebook-empty-state');
+      const purchases = getGuidebookPurchases();
+      productList.replaceChildren();
+      emptyState.classList.toggle('hidden', purchases.length > 0);
+
+      purchases.forEach((item, index) => {
+        const regionKey = getPassportRegionKey(item.region);
+        const region = guidebookRegions[regionKey];
+        const productCard = document.createElement('button');
+        productCard.type = 'button';
+        productCard.className = 'text-left bg-surface-card rounded-2xl border border-border-warm overflow-hidden shadow-sm hover:shadow-md transition-shadow focus-visible:outline focus-visible:outline-2 focus-visible:outline-secondary';
+        productCard.setAttribute('aria-label', `Mở guidebook ${item.name}`);
+
+        if (region?.image && /box|hộp|local box/i.test(item.name)) {
+          const image = document.createElement('img');
+          image.src = region.image;
+          image.alt = item.name;
+          image.className = 'w-full h-40 object-cover';
+          productCard.append(image);
+        } else {
+          const imagePlaceholder = document.createElement('span');
+          imagePlaceholder.className = 'w-full h-40 flex items-center justify-center bg-surface-cream text-secondary';
+          imagePlaceholder.innerHTML = '<span class="material-symbols-outlined text-6xl" aria-hidden="true">menu_book</span>';
+          productCard.append(imagePlaceholder);
+        }
+
+        const details = document.createElement('span');
+        details.className = 'block p-4';
+        const productName = document.createElement('span');
+        productName.className = 'block font-headline-sm text-headline-sm text-primary';
+        productName.textContent = item.name;
+        const productRegion = document.createElement('span');
+        productRegion.className = 'block text-caption text-text-muted mt-1';
+        productRegion.textContent = `${region?.name || item.region} · ${region?.category || 'Đặc sản VietNom'}`;
+        const quantity = document.createElement('span');
+        quantity.className = 'block text-caption text-secondary font-semibold mt-2';
+        quantity.textContent = `Đã mua: ${item.qty}`;
+        details.append(productName, productRegion, quantity);
+        productCard.append(details);
+        productCard.addEventListener('click', () => openPurchasedGuidebook(index));
+        productList.append(productCard);
+      });
+    }
+
+    function openPurchasedGuidebook(index) {
+      const item = getGuidebookPurchases()[index];
+      if (!item) return;
+
+      const regionKey = getPassportRegionKey(item.region);
+      const region = guidebookRegions[regionKey] || {
+        name: item.region || 'VietNom',
+        category: 'Đặc sản địa phương',
+        title: 'Hương Vị Bản Địa',
+        introTitle: 'Câu Chuyện Trong Chiếc Hộp',
+        intro: `Cẩm nang đồng hành cùng ${item.name}, giới thiệu cách thưởng thức và câu chuyện về đặc sản VietNom.`,
+        audience: 'Dành cho người yêu những thức quà truyền thống Việt Nam.',
+        storyTitle: 'Gìn giữ hương vị quê nhà',
+        story: 'Mỗi sản phẩm mang theo cách làm và câu chuyện riêng của người địa phương.',
+        audioTitle: 'Chuyện kể đặc sản VietNom',
+        qrCopy: 'Mã QR trên sản phẩm giúp bạn khám phá thêm câu chuyện về đặc sản.',
+        pairingOneTitle: '1. Thưởng thức chậm rãi:',
+        pairingOne: 'Dùng thử từng món để cảm nhận trọn vẹn hương vị và kết cấu.',
+        pairingTwoTitle: '2. Chia sẻ cùng trà:',
+        pairingTwo: 'Một tách trà ấm có thể giúp cân bằng vị giác khi thưởng thức đặc sản.',
+        waterTip: 'Pha chế đồ uống theo hướng dẫn của từng sản phẩm.',
+        nextJourney: 'Chọn thêm một sản phẩm VietNom để tiếp tục hành trình khám phá.',
+        pointsTitle: 'Tiếp tục hành trình khám phá'
+      };
+
+      document.getElementById('guidebook-title').textContent = `Guidebook ${region.name} — ${region.title}`;
+      document.getElementById('guidebook-edition').textContent = `Cẩm nang theo sản phẩm: ${item.name}`;
+      document.getElementById('guidebook-intro-title').textContent = region.introTitle;
+      document.getElementById('guidebook-intro').textContent = region.intro;
+      document.getElementById('guidebook-audience').textContent = region.audience;
+      document.getElementById('guidebook-story-title').textContent = region.storyTitle;
+      document.getElementById('guidebook-story').textContent = region.story;
+      document.getElementById('guidebook-audio-title').textContent = region.audioTitle;
+      document.getElementById('guidebook-qr-copy').textContent = region.qrCopy;
+      document.getElementById('guidebook-pairing-one-title').textContent = region.pairingOneTitle;
+      document.getElementById('guidebook-pairing-one').textContent = region.pairingOne;
+      document.getElementById('guidebook-pairing-two-title').textContent = region.pairingTwoTitle;
+      document.getElementById('guidebook-pairing-two').textContent = region.pairingTwo;
+      document.getElementById('guidebook-water-tip').textContent = region.waterTip;
+      document.getElementById('guidebook-next-journey').textContent = region.nextJourney;
+      document.getElementById('guidebook-points-title').textContent = region.pointsTitle;
+
+      currentBookPage = 1;
+      document.querySelectorAll('#book-viewport .book-page').forEach((page, pageIndex) => {
+        page.classList.toggle('hidden', pageIndex !== 0);
+      });
+      updateBookPageUI();
+      document.getElementById('guidebook-library').classList.add('hidden');
+      document.getElementById('guidebook-reader').classList.remove('hidden');
+    }
+
+    function closePurchasedGuidebook() {
+      document.getElementById('guidebook-reader').classList.add('hidden');
+      document.getElementById('guidebook-library').classList.remove('hidden');
     }
 
     function renderPassportProgress() {
@@ -1786,6 +2072,12 @@
       if (target) {
         target.classList.remove('hidden');
         target.classList.add('block');
+      }
+
+      if (viewId === 'guidebook') {
+        document.getElementById('guidebook-reader').classList.add('hidden');
+        document.getElementById('guidebook-library').classList.remove('hidden');
+        renderGuidebookLibrary();
       }
 
       // Update secondary tab pills
@@ -2004,6 +2296,7 @@
 
     function completeOrderSuccess() {
       closeCheckoutModal();
+      purchasedProducts = purchasedProducts.concat(currentCart.map(item => ({ ...item })));
       currentCart.forEach(item => {
         const regionKey = getPassportRegionKey(item.region);
         if (regionKey) conqueredRegions.add(regionKey);
